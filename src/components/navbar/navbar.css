@@ -1,0 +1,16 @@
+.NavbarItems {
+    height: 80px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 5px;
+    list-style: none;
+}
+
+.lang-list {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    list-style: none;
+}

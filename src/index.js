@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-import Main from "./components/main/main";
+import Cover from "./components/cover/cover";
 import Navbar from "./components/navbar/navbar";
 import "./index.css";
 
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div id="App">
         <Navbar />
-        <Main />
+        <Cover />
       </div>
     );
   }

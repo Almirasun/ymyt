@@ -8,7 +8,7 @@ const en = {
   "navbar-link-donate": "Donate",
   "navbar-lang-ru": "RU",
   "navbar-lang-kg": "KG",
-  "navbar-lank-en": "EN",
+  "navbar-lang-en": "EN",
 
   //   Conver
   "cover-title": "Yмγт бyлагы",

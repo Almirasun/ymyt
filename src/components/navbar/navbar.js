@@ -12,9 +12,9 @@ class Navbar extends Component {
         <div className="container">
           <div className="navbar-brand">
             <a className="navbar-item" href="#">
-              {" "}
+              <img src={logo} />
             </a>
-            <span className="navbar-burger" data-tartget="navMenu">
+            <span className="navbar-burger burger" data-tartget="navMenu">
               <span></span>
               <span></span>
               <span> </span>

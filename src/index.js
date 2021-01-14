@@ -7,8 +7,8 @@ import * as Components from "./components";
 function App() {
   return (
     <div className="App">
-      <Components.Cover />,
-      <Components.AboutUs />,
+      <Components.Cover />
+      <Components.AboutUs />
       <Components.WhatWeDo />
     </div>
   );

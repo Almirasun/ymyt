@@ -1,0 +1,31 @@
+h1 {
+  position: absolute;
+  height: 112px;
+  left: 96px;
+  right: 1196px;
+  top: 251px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 93px;
+  line-height: 104px;
+  /* or 108% */
+
+  color: #000000;
+}
+
+button {
+  position: absolute;
+  left: 96px;
+  right: 1196px;
+  top: 251px;
+}
+
+.bg-cover {
+  width: 500px;
+  height: 500px;
+  background-image: url("./bg-cover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

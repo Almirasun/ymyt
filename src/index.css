@@ -1,13 +1,76 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 96px;
+}
+
+.first-section {
+  height: 895px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  padding: 0 8px;
+}
+
+/* .main-text {
+  margin-bottom: 100px;
+} */
+
+.main-text__headline {
+  margin-top: 169px;
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.main-text__caption {
+  margin-top: 40px;
+  font-size: 56px;
+  color: #14AD02;  
+  /* text-shadow: 0 4 4 0; */
+}
+
+.contact-us {
+  height: 68px;
+  width: 298px;
+  margin: 56px 0 252px 0;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #14AD02;
+  border: none;
+  border-radius: 3px;
+}
+
+.contact-us:hover {
+  background-color: #138a06;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 
+              0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.second-section {
+  margin-top: 201px;
+}
+
+.second-section__title {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.second-section__description {
+  font-size: 24px;
 }

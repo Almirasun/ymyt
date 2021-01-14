@@ -95,6 +95,15 @@ const ru = {
   "footer-email":"ubulagy@gmail.com ",
 
 
+  // history
+  "history":"История",
+  "history-info":"Общественный фонд \"Умут булагы\" был основан в 2020 году инициативой первой леди Кыргызской Республики Айгуль Жапаровой. Фонд получил официальное название – Умут булагы, в честь молодого парня по имени Умут, погибшего на мирном митинге в октябре 2020 г. в Кыргызстане. Наш фонд символизирует источник надежды и веру личности в себя, в страну и в лучшее будущее.",
+  
+  // appeal
+  "appeal-title":"Обращение первой леди Айгуль Жапаровой",
+  "appeal-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
+  
+
 };
 
 export default ru

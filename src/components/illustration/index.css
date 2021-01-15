@@ -1,0 +1,47 @@
+/* .first-section {
+     height: 895px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+     .first-section > * {
+      flex: 1;
+     }  
+    
+.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }  */
+    
+.frame > .cover-image {
+  flex: 2;
+  height: 400px; 
+  background: url(./dety.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frame > .cover-image.cover-image-896 {
+  height: 896px; /* высота изображения которую хотим задать */
+}
+
+.frame > .cover-image > .arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 150px solid white; /* глубина угла */
+}
+
+.frame > .cover-image.cover-image-896 > .arrow {
+  border-top: 448px solid transparent; /* половина от общей высоты */
+  border-bottom: 448px solid transparent; /* половина от общей высоты */
+}
+
+/* .frame > .cover-image {
+  
+} */
+
+/********************/
+
+
+

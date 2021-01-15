@@ -10,6 +10,8 @@ function App() {
       <Components.Cover />
       <Components.AboutUs />
       <Components.WhatWeDo />
+      <Components.Navbar />
+
     </div>
   );
 }

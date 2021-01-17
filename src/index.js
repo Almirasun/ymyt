@@ -7,6 +7,7 @@ import * as Components from "./components";
 function App() {
   return (
     <div className="App">
+      <Components.Navbar />
       <Components.Cover />
       <Components.AboutUs />
       <Components.WhatWeDo />

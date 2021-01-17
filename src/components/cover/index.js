@@ -1,17 +1,20 @@
 import React from "react";
 import * as Language from "../../strings/strings";
 import * as Components from "../../components"
-import "./index.css";
+import "./index.scss";
 
 export const Cover = () => {
   return (
     <div id="Cover" className="bg-cover">
       <section className="first-section">
+        <Components.Illustration />
         <header className="header">
-          <div className="logo">
-            Логотип
-            {/* <img src="logo.svg"></img> */}
-          </div>
+        {/* <div className="logo-area">
+            <div className="logo" />
+        </div> */}
+          {/* <div className="logo">
+            Логотип            
+          </div> */}
           <div>
             <nav>
               <ul className="menu">
@@ -23,15 +26,17 @@ export const Cover = () => {
             <menu>Меню</menu>
           </div>
         </header>
-        <div className="main-text">
-          <p className="main-text__headline">{Language.ru["cover-title"]}</p>
-          <p className="main-text__caption">{Language.ru["cover-moto"]}</p>
-        </div>
-        <button className="contact-us">{Language.ru["cover-contact-us-button"]}</button>
-        <div className="social-icons__area">
-          <p>{Language.ru["cover-follow-us"]}</p>
-          <Components.SocialIcons />
-        </div>
+        
+          <div className="main-text">
+            <p className="main-text__headline">{Language.ru["cover-title"]}</p>
+            <p className="main-text__caption">{Language.ru["cover-moto"]}</p>
+          </div>
+          <button className="contact-us">{Language.ru["cover-contact-us-button"]}</button>
+          <div className="social-icons__area">
+            <p>{Language.ru["cover-follow-us"]}</p>
+            <Components.SocialIcons />
+          </div>
+        
       </section>
     </div>
   );

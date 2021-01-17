@@ -1,0 +1,22 @@
+.third-section {
+    margin-right: 96px;
+  }
+  
+  .third-section__area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .third-section__title {
+    font-size: 48px;
+    padding: 0 550px 48px 550px;
+  }
+  
+  .third-section__description {
+    font-size: 30px;
+    /* width: 1132px; */
+    margin: 0 298px 116px 298px;
+    font-weight: normal;
+    text-align: center;
+  }

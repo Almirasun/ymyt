@@ -3,6 +3,7 @@
 //   height: 896px;
 // }
 
+
 .header {
   display: flex;
   justify-content: space-between; /*расположение названий и кнопки в главной секции*/
@@ -41,7 +42,7 @@
 .contact-us {
   height: 68px;
   width: 298px;
-  margin: 56px 0 252px 0; /* 252px - это расстояние от кнопки до иконок соц.сетей*/
+  margin: 56px 0 100px 0; /* 252px - это расстояние от кнопки до иконок соц.сетей*/
   font-size: 24px;
   color: #FFFFFF;
   background-color: #14AD02;

@@ -7,26 +7,7 @@ export const Cover = () => {
   return (
     <div id="Cover" className="bg-cover">
       <section className="first-section">
-        <Components.Illustration />
-        <header className="header">
-        {/* <div className="logo-area">
-            <div className="logo" />
-        </div> */}
-          {/* <div className="logo">
-            Логотип            
-          </div> */}
-          <div>
-            <nav>
-              <ul className="menu">
-                <li className="menu-item">RU</li>
-                <li className="menu-item">KG</li>
-                <li className="menu-item">EN</li>
-              </ul>
-            </nav>
-            <menu>Меню</menu>
-          </div>
-        </header>
-        
+        {/* <Components.Illustration /> */}
           <div className="main-text">
             <p className="main-text__headline">{Language.ru["cover-title"]}</p>
             <p className="main-text__caption">{Language.ru["cover-moto"]}</p>

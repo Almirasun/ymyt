@@ -1,7 +1,7 @@
 import React from "react";
 import * as Language from "../../strings/strings";
 
-import "./index.css";
+import "./index.scss";
 
 export const WhatWeDo = () => {
   return (

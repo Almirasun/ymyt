@@ -13,7 +13,7 @@ const ru = {
 
   //   Conver
   "cover-title": "Yмγт бyлагы",
-  "cover-moto": "Эне-балага тирек",
+  "cover-moto": "Опора для матери и ребенка",
   "cover-contact-us-button":"Связаться с нами",
   "cover-follow-us":"Следите за нами:",
 
@@ -47,7 +47,7 @@ const ru = {
   "donations-other":"Другие пожертвования",
 
   //  Gallery
-  "gallery":"Галерея",
+  "gallery-title":"Галерея",
 
 
   // donate now

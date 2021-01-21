@@ -1,0 +1,23 @@
+.third-section {
+    margin-right: 96px;
+  }
+  
+  .third-section__area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .third-section__title {
+    font-size: 48px;
+    padding: 0 48px;
+    text-align: center;
+  }
+  
+  .third-section__description {
+    font-size: 30px;
+    /* width: 1132px; */
+    margin: 100px 0;
+    font-weight: normal;
+    text-align: center;
+  }

@@ -11,8 +11,8 @@ function App() {
       <Components.Cover />
       <Components.AboutUs />
       <Components.WhatWeDo />
-      <Components.Navbar />
-
+      <Components.News />
+      <Components.Gallery />
     </div>
   );
 }

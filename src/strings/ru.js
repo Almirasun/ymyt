@@ -11,7 +11,7 @@ const ru = {
   "navbar-lank-en":"EN",
 
 
-  //   Conver
+  //   Cover
   "cover-title": "Yмγт бyлагы",
   "cover-moto": "Опора для матери и ребенка",
   "cover-contact-us-button":"Связаться с нами",

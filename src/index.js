@@ -13,6 +13,7 @@ function App() {
       <Components.WhatWeDo />
       <Components.News />
       <Components.Gallery />
+      <Components.Donate />
     </div>
   );
 }

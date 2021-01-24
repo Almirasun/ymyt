@@ -5,7 +5,7 @@ export const Illustration = () => (
     <div>
         <div className="frame">
             <div className="cover-image cover-image-896">
-                <div className="arrow" />
+                <div className="internal-arrow" />
             </div>
         </div>   
 

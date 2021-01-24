@@ -26,13 +26,13 @@
   height: 896px; /* высота изображения которую хотим задать */
 }
 
-.frame > .cover-image > .arrow {
+.frame > .cover-image > .internal-arrow {
   width: 0; 
   height: 0; 
   border-left: 150px solid white; /* глубина угла */
 }
 
-.frame > .cover-image.cover-image-896 > .arrow {
+.frame > .cover-image.cover-image-896 > .internal-arrow {
   border-top: 448px solid transparent; /* половина от общей высоты */
   border-bottom: 448px solid transparent; /* половина от общей высоты */
 }

@@ -10,7 +10,7 @@ const en = {
   "navbar-lang-kg": "KG",
   "navbar-lang-en": "EN",
 
-  //   Conver
+  //   Cover
   "cover-title": "Yмγт бyлагы",
   "cover-moto": "Эне-балага тирек",
   "cover-contact-us-button": "Contact us",

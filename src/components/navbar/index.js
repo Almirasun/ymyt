@@ -4,58 +4,46 @@ import "./index.scss";
 import * as Strings from "../../strings/strings";
 
 export const Navbar = () => {
+
+  const [isActive, setActive] = React.useState(false);
+
+  const handleBurgerClick = () => {
+    setActive(!isActive)
+  }
+
   return (
     <nav className="navbar is-transparent">
-      <div className="container">
-        <div className="navbar-brand">
-          <div className="navbar-item">
-            <img src={logo} alt="logo" />
-          </div>
-
-          {/* <div className="navbar-burger" data-tartget="navMenu">
-            <span aria-hidden="true" />
-            <span aria-hidden="true" />
-            <span aria-hidden="true" />
-          </div> */}
+      <div className="navbar-brand">
+        <div className="navbar-item">
+          <img src={logo} alt="logo" />
         </div>
+
+        <a
+          role="button"
+          className={"navbar-burger" + (isActive ? ' is-active' : '')} onClick={handleBurgerClick}
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
 
-      <div id="navMenu" className="navbar-menu">
+      <div id="navMenu" className={"navbar-menu" + (isActive ? ' is-active' : '')} onClick={handleBurgerClick}>
         <div className="navbar-end">
-          <a className="menu-item">{Strings.ru["navbar-lang-ru"]}</a>
-          <a className="menu-item">{Strings.ru["navbar-lang-kg"]}</a>
-          <a className="menu-item">{Strings.ru["navbar-lank-en"]}</a>
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link is-arrowless">TUT BUDET BURGER</a>
-            <div className="navbar-dropdown is-boxed is-right">
-              <a href="#" className="navbar-item">
-                {Strings.ru["navbar-link-main"]}
-              </a>
-              <hr className="nav-divider" />
-              <a href="#" className="navbar-item">
-                {Strings.ru["navbar-link-about-us"]}
-              </a>
-              <hr className="nav-divider" />
-              <a href="#" className="navbar-item">
-                {Strings.ru["navbar-link-projects"]}
-              </a>
-              <hr className="nav-divider" />
-              <a href="#" className="navbar-item">
-                {Strings.ru["navbar-link-news"]}
-              </a>
-              <hr className="nav-divider" />
-              <a href="#" className="navbar-item">
-                {Strings.ru["navbar-link-contacts"]}
-              </a>
-              <hr className="nav-divider" />
-              <a href="#" className="navbar-item">
-                {Strings.ru["navbar-link-donate"]}
-              </a>
-              <hr className="nav-divider" />
-            </div>
-          </div>
+          <a className="navbar-item">{Strings.ru["navbar-link-main"]}</a>
+          <a className="navbar-item">{Strings.ru["navbar-link-about-us"]}</a>
+          <a className="navbar-item">{Strings.ru["navbar-link-projects"]}</a>
+          <a className="navbar-item">{Strings.ru["navbar-link-contacts"]}</a>
+          <a className="navbar-item">{Strings.ru["navbar-link-donate"]}</a>
+          <a className="navbar-item lang-list">{Strings.ru["navbar-lang-ru"]}</a>
+          <a className="navbar-item lang-list">{Strings.ru["navbar-lang-kg"]}</a>
+          <a className="navbar-item lang-list">{Strings.ru["navbar-lang-en"]}</a>
         </div>
       </div>
     </nav>
   );
 };
+

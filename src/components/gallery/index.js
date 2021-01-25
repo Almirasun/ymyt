@@ -19,28 +19,28 @@ export const Gallery = () => {
 
       <Carousel breakPoints={breakPoints}>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="300px" height="300px"/>
+          <img src={photo} alt="image-gallery" width="260px" height="180px"/>
         </Item>
       </Carousel>
     </div>

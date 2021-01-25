@@ -1,49 +1,87 @@
 import React from "react";
 import logo from "./logo.png";
-import "./index.scss";
-import * as Strings from "../../strings/strings";
+import "./index.css";
+// import * as Strings from "../../strings/strings"
+import * as ReactRedux from "react-redux";
+import * as AppRedux from "../../redux";
 
 export const Navbar = () => {
+  const dispatch = ReactRedux.useDispatch();
 
-  const [isActive, setActive] = React.useState(false);
+  const strings = ReactRedux.useSelector((state) => state.strings);
+  const lang = ReactRedux.useSelector((state) => state.lang);
 
-  const handleBurgerClick = () => {
-    setActive(!isActive)
-  }
+  const handleLangClick = (lang) => (e) => {
+    e.preventDefault();
+
+    dispatch(AppRedux.SetLanguageAction(lang));
+  };
 
   return (
-    <nav className="navbar is-transparent">
-      <div className="navbar-brand">
-        <div className="navbar-item">
-          <img src={logo} alt="logo" />
-        </div>
-
-        <a
-          role="button"
-          className={"navbar-burger" + (isActive ? ' is-active' : '')} onClick={handleBurgerClick}
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+    <div id="navbar" className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand">
+          <img src={logo} width={120} alt="Logo" />
         </a>
-      </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#burger"
+          aria-controls="burger"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div id="navMenu" className={"navbar-menu" + (isActive ? ' is-active' : '')} onClick={handleBurgerClick}>
-        <div className="navbar-end">
-          <a className="navbar-item">{Strings.ru["navbar-link-main"]}</a>
-          <a className="navbar-item">{Strings.ru["navbar-link-about-us"]}</a>
-          <a className="navbar-item">{Strings.ru["navbar-link-projects"]}</a>
-          <a className="navbar-item">{Strings.ru["navbar-link-contacts"]}</a>
-          <a className="navbar-item">{Strings.ru["navbar-link-donate"]}</a>
-          <a className="navbar-item lang-list">{Strings.ru["navbar-lang-ru"]}</a>
-          <a className="navbar-item lang-list">{Strings.ru["navbar-lang-kg"]}</a>
-          <a className="navbar-item lang-list">{Strings.ru["navbar-lang-en"]}</a>
+        <div id="burger" className="collapse navbar-collapse">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link nav-menu" href="/">
+                {strings[lang]["navbar-link-main"]}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link nav-menu" href="/">
+                {strings[lang]["navbar-link-projects"]}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link nav-menu" href="/">
+                {strings[lang]["navbar-link-about-us"]}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                {strings[lang]["navbar-link-contacts"]}
+              </a>
+            </li>
+          </ul>
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <button className="btn btn-success">
+                {strings[lang]["navbar-link-donate"]}
+              </button>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link lang-link" href="/" onClick={handleLangClick("ru")}>
+                {strings[lang]["navbar-lang-ru"]}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link lang-link" href="/" onClick={handleLangClick("kg")}>
+                {strings[lang]["navbar-lang-kg"]}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link lang-link" href="/" onClick={handleLangClick("en")}>
+                {strings[lang]["navbar-lang-en"]}
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
-

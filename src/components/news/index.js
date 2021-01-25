@@ -9,7 +9,7 @@ export const News = () => {
         class="twitter-timeline"
         data-lang="ru"
         data-width="408"
-        data-height="469"
+        data-height="450"
         href="https://twitter.com/akipress?ref_src=twsrc%5Etfw"
       >
       </a>{" "}

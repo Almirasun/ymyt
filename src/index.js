@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
-
+import * as AppRedux from './redux';
+import * as ReactRedux from 'react-redux';
 import * as Components from "./components";
+import "./index.scss";
 
 function App() {
   return (
@@ -13,9 +14,14 @@ function App() {
       <Components.WhatWeDo />
       <Components.News />
       <Components.Gallery />
-      <Components.Donate />
+      {/* <Components.Donate /> */}
     </div>
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <ReactRedux.Provider store={AppRedux.store}>
+    <App />
+  </ReactRedux.Provider>,
+  document.getElementById("root")
+);

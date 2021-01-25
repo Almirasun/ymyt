@@ -1,0 +1,39 @@
+.container .activities__icon {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container > .activities .item-1 {
+  background-image: url(./images/icon-1.png);
+  }
+  
+  .container > .activities .item-2 {
+    background-image: url(./images/icon-2.png);
+  }
+  
+  .container > .activities .item-3 {
+    background-image: url(./images/icon-3.png);
+  }
+  
+  .container > .activities .item-4 {
+    background-image: url(./images/icon-4.png);
+  }
+  
+  .container > .activities .item-5 {
+    background-image: url(./images/icon-5.png);
+  }
+  
+  .container > .activities .item-6 {
+    background-image: url(./images/icon-6.png);
+  }
+  
+  .container > .activities .item-7 {
+    background-image: url(./images/icon-7.png);
+  }
+
+  /* .container > .activities .activities__title {
+      font-style: bold;
+  } */
+

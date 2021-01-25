@@ -4,22 +4,23 @@ const en = {
   "navbar-link-about-us": "About us",
   "navbar-link-projects": "Projects",
   "navbar-link-news": "News",
-  "navbar-link-contacts": "Contacst",
+  "navbar-link-contacts": "Contacts",
   "navbar-link-donate": "Donate",
   "navbar-lang-ru": "RU",
   "navbar-lang-kg": "KG",
   "navbar-lang-en": "EN",
 
   //   Cover
-  "cover-title": "Yмγт бyлагы",
-  "cover-moto": "Эне-балага тирек",
+  "cover-title": "Umut bulagy",
+  "cover-moto": "Support for mother and child",
   "cover-contact-us-button": "Contact us",
   "cover-follow-us":"Follow us:",
 
 
   // Who we are
   "who-we-are-title": "Who we are?",
-  "who-we-are-info": 'A public foundation "Umut bulagy" works throughout the country under the initiative of First Lady of the Kyrgyz Republic Aigul Zhaparova. "We primarily strive to help children and mothers. To improve their quality of life, to protect and empower them. Umut bulagy – is a pillar for mother and child". A. Zhaparova',
+  "who-we-are-info1": 'A public foundation "Umut bulagy" works throughout the country under the initiative of First Lady of the Kyrgyz Republic Aigul Zhaparova.',
+  "who-we-are-info2": '"We primarily strive to help children and mothers. To improve their quality of life, to protect and empower them. Umut bulagy – is a pillar for mother and child". A. Zhaparova',
 
   // Mission
   "mission-title":"Our mission",

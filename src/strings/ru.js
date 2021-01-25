@@ -88,6 +88,7 @@ const ru = {
   "work-time":"09:00 - 18:00",
   "work-break":"Перерыв:",
   "work-break-time":"13:00 - 14:00",
+  "work-day-off":"Сб-Вс:",
   "work-saturday":"Суббота:",
   "work-saturday-time":"09:00 - 16:00",
   "work-sunday":"Воскресенье:",

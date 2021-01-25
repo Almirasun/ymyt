@@ -4,7 +4,6 @@
 
 #app-cover .bg-image {
   height: 80vh;
-  background-color: blue;
   background-image: url(./children.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,11 +12,12 @@
 
 #app-cover .bg-title {
   height: 80vh;
+  margin-left: 5%;
 }
 
 #app-cover .bg-image > .arrow {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 40vh solid transparent;
   border-bottom: 40vh solid transparent;
   border-left: 100px solid white;
@@ -31,7 +31,7 @@
 
 #app-cover .moto {
   font-weight: 400;
-  color: #14AD02;
+  color: #14ad02;
   font-size: 2rem;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -39,4 +39,6 @@
 
 #app-cover .contact-button {
   margin-bottom: 70px;
+  background-color: #14ad02;
+  border-radius: 0;
 }

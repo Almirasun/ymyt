@@ -12,9 +12,12 @@ function App() {
       <Components.Cover />
       <Components.WhoWeAre />
       <Components.WhatWeDo />
-      <Components.News />
+      {/* <Components.News /> */}
       <Components.Gallery />
+      <Components.Donate />
       <Components.Projects />
+      <Components.OperatingMode />
+      <Components.Footer />
     </div>
   );
 }

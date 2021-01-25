@@ -10,6 +10,8 @@
 
 #navbar button {
   margin-right: 7em;
+  background-color: #14ad02;
+  border-radius: 0;
 }
 
 #navbar .lang-link {

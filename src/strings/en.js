@@ -82,14 +82,15 @@ const en = {
 
   // operating mode 
   "work":"Режим работы",
-  "work-days":"Пн-Пт:",
+  "work-days":"M-F:",
   "work-time":"09:00 - 18:00",
   "work-break":"Перерыв:",
   "work-break-time":"13:00 - 14:00",
+  "work-day-off":"S-S:",
   "work-saturday":"Суббота:",
   "work-saturday-time":"09:00 - 16:00",
   "work-sunday":"Воскресенье:",
-  "work-sunday-time":"Выходной",
+  "work-sunday-time":"Days off",
 
   // footer
   "footer-links":"Быстрые ссылки",

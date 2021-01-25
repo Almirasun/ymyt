@@ -20,7 +20,8 @@ const ru = {
   // Who we are
   "who-we-are-title": "Кто мы?",
   "who-we-are-info1": 'Общественный фонд "Умут булагы" под инициативой первой леди Кыргызской Республики Айгуль Жапаровой работает по всей стране.',
-  "who-we-are-info2": '"Мы стремимся в первую очередь помогать детям и матерям. Улучшать их жизни, защищать и развивать их потенциал. Умут булагы – опора для матери и ребенка." –  А. Жапарова.',
+  "who-we-are-info2": '"Мы стремимся в первую очередь помогать детям и матерям. Улучшать их жизни, защищать и развивать их потенциал. Умут булагы – опора для матери и ребенка."',
+  "who-we-are-author": "А. Жапарова",
 
   // Mission
   "mission-title":"Наша миссия",
@@ -64,6 +65,7 @@ const ru = {
 
 
   // our projects
+  "projects":"Наши проекты",
   "project-1":"Проект 1",
   "project-1-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
   "project-2":"Проект 2",

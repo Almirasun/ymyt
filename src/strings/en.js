@@ -20,8 +20,8 @@ const en = {
   // Who we are
   "who-we-are-title": "Who we are?",
   "who-we-are-info1": 'A public foundation "Umut bulagy" works throughout the country under the initiative of First Lady of the Kyrgyz Republic Aigul Zhaparova.',
-  "who-we-are-info2": '"We primarily strive to help children and mothers. To improve their quality of life, to protect and empower them. Umut bulagy – is a pillar for mother and child". A. Zhaparova',
-
+  "who-we-are-info2": '"We primarily strive to help children and mothers. To improve their quality of life, to protect and empower them. Umut bulagy – is a pillar for mother and child".',
+  "who-we-are-author": "A. Zhaparova",
   // Mission
   "mission-title":"Our mission",
   "mission-info":"Supporting the creation of essential conditions for the health and comprehensive development of single mothers, orphans and other vulnerable groups in Kyrgyzstan to achieve social justice and impartiality in the society.",
@@ -63,6 +63,7 @@ const en = {
 
 
   // our projects
+  "projects":"Our projects",
   "project-1":"Project 1",
   "project-1-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
   "project-2":"Project 2",

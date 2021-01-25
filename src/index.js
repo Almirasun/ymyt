@@ -10,11 +10,11 @@ function App() {
     <div className="App">
       <Components.Navbar />
       <Components.Cover />
-      <Components.AboutUs />
+      <Components.WhoWeAre />
       <Components.WhatWeDo />
       <Components.News />
       <Components.Gallery />
-      {/* <Components.Donate /> */}
+      <Components.Projects />
     </div>
   );
 }

@@ -1,26 +1,23 @@
-.donate-area {
-    display: grid;
-    grid-row-gap: 246px;
-    margin-bottom: 192px;
-}
 
-.frame-first {
-    width: 100%;
-    height: 652px;
-    /* background-color: #F4F4F4; */
-    background-color: grey;
-}
-
-.frame-second {
-    width: 100%;
-    height: 652px;
-    /* background-color: #FBFBFB; */
-    background-color: grey;
-}
-
-.frame-third {
-    width: 100%;
-    height: 652px;
-    /* background-color: #F4F4F4; */
-    background-color: grey;
-}
+#donate {
+    margin-top: 150px;
+  }
+  
+  #donate .bg-image {
+    height: 300px;
+    background-color: blue;
+    background-image: url(./images/image-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+  }
+  
+  #donate .bg-image > .arrow {
+    width: 0; 
+    height: 0; 
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 50px solid white;
+  }
+  
+  

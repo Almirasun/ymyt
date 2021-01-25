@@ -1,5 +1,5 @@
 import React from "react";
-import * as Strings from "../../strings/strings";
+import * as ReactRedux from "react-redux";
 import photo from "./dety.jpg";
 import Carousel from "react-elastic-carousel";
 import Item from "./item";
@@ -13,9 +13,12 @@ const breakPoints = [
 ];
 
 export const Gallery = () => {
+  const strings = ReactRedux.useSelector((state) => state.strings);
+  const lang = ReactRedux.useSelector((state) => state.lang);
+
   return (
     <div id="gallery" className="container">
-      <p className="title">{Strings.ru["gallery-title"]}</p>
+      <h3 className="title text-left">{strings[lang]["gallery-title"]}</h3>
 
       <Carousel breakPoints={breakPoints}>
         <Item>

@@ -1,0 +1,22 @@
+#operating-mode {
+  background-color: #fbfbfb;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+#operating-mode .top {
+    padding-top: 30px;
+
+}
+
+#operating-mode .days {
+    font-weight: 300;
+}
+#operating-mode .time {
+    font-weight: 400;
+}
+
+#operating-mode .bottom{
+    padding-bottom: 30px;
+
+}

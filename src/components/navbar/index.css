@@ -1,0 +1,33 @@
+#navbar {
+  z-index: 9;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+#navbar a {
+  color: black;
+}
+
+#navbar button {
+  margin-right: 7em;
+  background-color: #14ad02;
+  border-radius: 0;
+}
+
+#navbar .lang-link {
+  display: inline;
+  padding-bottom: 0; 
+  
+}
+
+#navbar .lang-link:focus {
+  border-bottom: 1px solid black;
+}
+
+#navbar .navbar-brand {
+  margin-right: 200px;
+}
+
+#navbar .nav-menu {
+  margin-right: 2em;
+}

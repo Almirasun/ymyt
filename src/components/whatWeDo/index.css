@@ -1,89 +1,54 @@
-.third-section {
-  margin: 0 96px 204px 96px;
-}
+.container .activities__icon {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-.third-section__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* ориентир колонки по центру */
-  text-align: center; /* ориентир текста по центру */
-}
+  .container > .activities .item-1 {
+  background-image: url(./images/icon-1.png);
+  }
+  
+  .container > .activities .item-2 {
+    background-image: url(./images/icon-2.png);
+  }
+  
+  .container > .activities .item-3 {
+    background-image: url(./images/icon-3.png);
+  }
+  
+  .container > .activities .item-4 {
+    background-image: url(./images/icon-4.png);
+  }
+  
+  .container > .activities .item-5 {
+    background-image: url(./images/icon-5.png);
+  }
+  
+  .container > .activities .item-6 {
+    background-image: url(./images/icon-6.png);
+  }
+  
+  .container > .activities .item-7 {
+    background-image: url(./images/icon-7.png);
+  }
 
-.third-section__title {
-  font-size: 48px;
-  margin: 0 550px 48px 550px;
-}
+  /* .container > .activities .activities__title {
+      font-style: bold;
+  } */
 
-.third-section__description {
-  font-size: 30px;
-  /* width: 1132px; */
-  margin: 0 298px 116px 298px;
-  font-weight: normal;
-}
+  #whatWeDo .info-2 {
+    font-weight: 400;
+  }
 
-.activities-area {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  /* justify-content: space-between; */
-  grid-row-gap: 150px;
-  text-align: center; /* центрирование текстов */
-}
+  #whatWeDo .activities__description {
+    font-weight: 300;
+    line-height: normal;
+  }
 
-.activities__title {
-  font-size: 32px;
-}
+  #whatWeDo .text-center {
+    margin-bottom: 0;
+    
+  }
 
-.activities__description {
-  font-size: 28px;
-  font-weight: normal; /* тип шрифта */
-}
 
-.activities {
-  /* width: 100%; */
-  height: 194px;
-}
-
-/* .activities-icon {
-  width: 84px;
-  height: 84px;
-  background: url(./icon-1.png);
-  background-repeat: no-repeat;
-} */
-
-.item-1 {
-  background: url(./icon-1.png);
-  background-repeat: no-repeat;
-}
-
-.item-2 {
-  background: url(./icon-2.png);
-  background-repeat: no-repeat;
-}
-
-.item-3 {
-  background: url(./icon-3.png);
-  background-repeat: no-repeat;
-}
-
-.item-4 {
-  background: url(./icon-4.png);
-  background-repeat: no-repeat;
-}
-
-.item-5 {
-  background: url(./icon-5.png);
-  background-repeat: no-repeat;
-}
-
-.item-6 {
-  background: url(./icon-6.png);
-  background-repeat: no-repeat;
-  grid-column: 2 / 4;
-}
-
-.item-7 {
-  background: url(./icon-7.png);
-  background-repeat: no-repeat;
-}

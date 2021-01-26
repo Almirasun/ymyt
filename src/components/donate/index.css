@@ -1,39 +1,43 @@
+
 #donate {
-  margin-top: 150px;
-}
+    margin-top: 150px;
+  }
+  
+  #donate .img-area {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  }
+  
+  
+  #donate > .frame-first {
+    background-color: #F4F4F4;
+    height: 400px;
+  }
 
-#donate .bg-image {
-  height: 400px;
-  background-image: url(./images/image-1.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-left: 0;
-}
+  #donate > .frame-first .bg-image-1 {
+    background-image: url(./images/image-1.JPG);
+  }
 
-#donate .bg-image > .arrow {
-  width: 0;
-  height: 0;
-  border-top: 29vh solid transparent;
-  border-bottom: 29vh solid transparent;
-  border-left: 70px solid #f4f4f4;
-}
+  #donate > .frame-second {
+    background-color: #FBFBFB;
+    height: 400px;
+  }
 
-#donate .row {
-  background-color: #f4f4f4;
-}
+  #donate > .frame-second .bg-image-2 {
+    background-image: url(./images/image-2.JPG);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
+  
+  #donate > .frame-third {
+    background-color: #F4F4F4;
+    height: 400px;
+  }
 
-#donate button {
-  background-color: #14ad02;
-  border-radius: 0;
-}
-
-#donate .donate-title {
-  font-weight: 700;
-  margin-top: 50px;
-}
-
-
-#donate .donate-info {
-  font-weight: 300;
-  margin: 50px 0 50px 0;
-}
+  #donate > .frame-third .bg-image-3 {
+    background-image: url(./images/image-3.jpg);
+  }
+  
+  

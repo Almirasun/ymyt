@@ -16,6 +16,7 @@ function App() {
       <Components.Gallery />
       <Components.Donate />
       <Components.Projects />
+      <Components.Request />
       <Components.OperatingMode />
       <Components.Footer />
     </div>

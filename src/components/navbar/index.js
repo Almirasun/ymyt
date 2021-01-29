@@ -24,7 +24,7 @@ export const Navbar = () => {
           <img src={logo} width={120} alt="Logo" />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#burger"
@@ -32,7 +32,7 @@ export const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div id="burger" className="collapse navbar-collapse">

@@ -12,11 +12,10 @@ function App() {
       <Components.Cover />
       <Components.WhoWeAre />
       <Components.WhatWeDo />
-      {/* <Components.News /> */}
+      <Components.News />
       <Components.Gallery />
       <Components.Donate />
       <Components.Projects />
-      <Components.Request />
       <Components.OperatingMode />
       <Components.Footer />
     </div>

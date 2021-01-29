@@ -31,7 +31,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#!" classNameName="text-dark">
+                  <a href="#!" className="text-dark">
                     {strings[lang]["footer-about-us"]}
                   </a>
                 </li>

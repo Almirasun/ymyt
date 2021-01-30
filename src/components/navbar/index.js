@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "./logo.png";
-import "./index.css";
-// import * as Strings from "../../strings/strings"
 import * as ReactRedux from "react-redux";
 import * as AppRedux from "../../redux";
+
+import "./index.css";
 
 export const Navbar = () => {
   const dispatch = ReactRedux.useDispatch();
@@ -18,8 +18,8 @@ export const Navbar = () => {
   };
 
   return (
-    <div id="navbar" className="navbar navbar-expand-lg">
-      <div className="container-fluid">
+    <div className="container-fluid">
+      <div id="navbar" className="navbar navbar-expand-xl navbar-light">
         <a className="navbar-brand">
           <img src={logo} width={120} alt="Logo" />
         </a>
@@ -36,14 +36,15 @@ export const Navbar = () => {
         </button>
 
         <div id="burger" className="collapse navbar-collapse">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link nav-menu" href="/">
                 {strings[lang]["navbar-link-main"]}
               </a>
             </li>
+            <hr />
             <li className="nav-item">
-              <a className="nav-link nav-menu" href="/">
+              <a className="nav-link nav-menu" href="#projects">
                 {strings[lang]["navbar-link-projects"]}
               </a>
             </li>
@@ -53,14 +54,14 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="#footer">
                 {strings[lang]["navbar-link-contacts"]}
               </a>
             </li>
           </ul>
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ml-auto second-ul">
             <li className="nav-item">
-              <button className="btn btn-success">
+              <button id="donate-btn" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 {strings[lang]["navbar-link-donate"]}
               </button>
             </li>
@@ -80,6 +81,31 @@ export const Navbar = () => {
               </a>
             </li>
           </ul>
+        </div>
+      </div>
+
+      {/* Modal */}
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                {strings[lang]["modal-title"]}
+              </h5>
+            </div>
+            <div class="modal-body">{strings[lang]["modal-info"]}</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">
+                {strings[lang]["modal-close-btn"]}
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

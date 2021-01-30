@@ -11,6 +11,12 @@ const ru = {
   "navbar-lang-en":"EN",
 
 
+  // Modal
+  "modal-title":"Пожертвовать",
+  "modal-close-btn":"Закрыть",
+  "modal-info":"ЭЛСОМ 0777111222",
+
+
   //   Cover
   "cover-title": "Yмγт бyлагы",
   "cover-moto": "Опора для матери и ребенка",
@@ -21,7 +27,7 @@ const ru = {
   "who-we-are-title": "Кто мы?",
   "who-we-are-info1": 'Общественный фонд "Умут булагы" под инициативой первой леди Кыргызской Республики Айгуль Жапаровой работает по всей стране.',
   "who-we-are-info2": '"Мы стремимся в первую очередь помогать детям и матерям. Улучшать их жизни, защищать и развивать их потенциал. Умут булагы – опора для матери и ребенка."',
-  "who-we-are-author": "А. Жапарова",
+  "who-we-are-author": "- А. Жапарова",
 
   // Mission
   "mission-title":"Наша миссия",
@@ -115,6 +121,8 @@ const ru = {
   "appeal-title":"Обращение первой леди Айгуль Жапаровой",
   "appeal-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
   
+  // news
+  "news-link":"Все новости нашего фонда ⇢",
 
 };
 

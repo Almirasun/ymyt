@@ -10,6 +10,11 @@ const kg = {
   "navbar-lang-kg": "KG",
   "navbar-lang-en": "EN",
 
+  // Modal
+  "modal-title":"Пожертвовать",
+  "modal-close-btn":"Закрыть",
+  "modal-info":"ЭЛСОМ 0777111222",
+
   //   Cover
   "cover-title": "Yмγт бyлагы",
   "cover-moto": "Эне-балага тирек",
@@ -18,13 +23,15 @@ const kg = {
 
   // Who we are
   "who-we-are-title": "Биз кимбиз ?",
-  "who-we-are-info1": 'Кыргыз Республикасынын биринчи айымы Айгүл Жапарованын демилгеси менен түзүлгөн "Үмүт булагы" коомдук фонду бүткүл өлкө боюнча иш жүргүзөт.',
-  "who-we-are-info2": 'Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
-  "who-we-are-author": "А. Жапарова",
+  "who-we-are-info1":
+    'Кыргыз Республикасынын биринчи айымы Айгүл Жапарованын демилгеси менен түзүлгөн "Үмүт булагы" коомдук фонду бүткүл өлкө боюнча иш жүргүзөт.',
+  "who-we-are-info2":
+    'Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
+  "who-we-are-author": "- А. Жапарова",
   // Mission
-  "mission-title":"Биздин миссия",
-  "mission-info":"Кыргызстандагы жалгыз бой энелердин, жетим балдардын жана калктын муктаж болгон катмарларынын ден-соолугу жана толук кандуу өнүгүшү үчүн зарыл шарттарды түзүүгө салым кошуу аркылуу коомдогу социалдык адилеттүүлүккө жана бейтараптуулукка жетишүү.",
-
+  "mission-title": "Биздин миссия",
+  "mission-info":
+    "Кыргызстандагы жалгыз бой энелердин, жетим балдардын жана калктын муктаж болгон катмарларынын ден-соолугу жана толук кандуу өнүгүшү үчүн зарыл шарттарды түзүүгө салым кошуу аркылуу коомдогу социалдык адилеттүүлүккө жана бейтараптуулукка жетишүү.",
 
   // What we do
   "what-we-do-title": "Биз эмне кылабыз?",
@@ -60,10 +67,11 @@ const kg = {
   "donate-now-info":
     "Бизге кошулуңуз. Кыргызстандагы энелер менен балдарга, калктын аярлуу катмарына колдоо көрсөтүңүз.",
   "donate-button": "Пожертвовать",
-  "donate-button-info" : "Андан соң, сиз кайрымдуулук каражатын которуу үчүн коопсуз төлөм баракчасына өтө аласыз.",
+  "donate-button-info":
+    "Андан соң, сиз кайрымдуулук каражатын которуу үчүн коопсуз төлөм баракчасына өтө аласыз.",
 
   // our projects
-  "projects":"Наши проекты kg",
+  projects: "Наши проекты kg",
   "project-1": "Проект 1",
   "project-1-info":
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
@@ -73,9 +81,11 @@ const kg = {
 
   // send request
   "send-request": "Отправить запрос на получение помощи",
-  "send-request-info":'"Үмүт Булагы" Коомдук фонду өлкө боюнча жалгыз бой энелерге, жетим балдарга жана калктын башка аярлуу катмарына материалдык жана башка түрүндө жардам берет.',
+  "send-request-info":
+    '"Үмүт Булагы" Коомдук фонду өлкө боюнча жалгыз бой энелерге, жетим балдарга жана калктын башка аярлуу катмарына материалдык жана башка түрүндө жардам берет.',
   "send-request-button": "Отправить",
-  "send-request-response": "Кайрылууңуз үчүн рахмат. Биз мүмкүн болушунча эртерээк карап чыгып, сиз менен байланышабыз.",
+  "send-request-response":
+    "Кайрылууңуз үчүн рахмат. Биз мүмкүн болушунча эртерээк карап чыгып, сиз менен байланышабыз.",
 
   // join ymyt
   join: '"Үмүт булагына" кошулуу',
@@ -89,7 +99,7 @@ const kg = {
   "work-time": "09:00 - 18:00",
   "work-break": "Перерыв:",
   "work-break-time": "13:00 - 14:00",
-  "work-day-off":"Сб-Вс:",
+  "work-day-off": "Сб-Вс:",
   "work-saturday": "Суббота:",
   "work-saturday-time": "09:00 - 16:00",
   "work-sunday": "Воскресенье:",
@@ -116,6 +126,10 @@ const kg = {
   "appeal-title": "Обращение первой леди Айгуль Жапаровой",
   "appeal-info":
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
+
+  // news
+  "news-link": "Все новости нашего фонда ⇢",
+
 };
 
 export default kg;

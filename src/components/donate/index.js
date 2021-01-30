@@ -15,7 +15,6 @@ export const Donate = () => {
                     <div className='row'>
                         <div className='col' />
                             <div className='col img-area bg-image-1' />                          
-                            
                     </div>
                 </div>
                 <div className='container' style={{ marginTop: -400 }}>

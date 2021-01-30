@@ -42,3 +42,26 @@
   background-color: #14ad02;
   border-radius: 0;
 }
+
+
+@media (max-width: 1200px) {
+
+  #app-cover {
+    margin-top: auto;
+    text-align: center;
+  }
+
+  #app-cover .h1 {
+    margin-top: auto;
+  }
+
+  #app-cover .bg-image > .arrow {
+    display: none;
+  }
+
+  #app-cover .bg-image {
+    width: 100%;
+  }
+
+
+}

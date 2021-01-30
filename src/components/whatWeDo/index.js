@@ -17,7 +17,7 @@ export const WhatWeDo = () => {
       </div>
       <div className="activities ">
         <div className="row" style={{ marginTop: 50 }}>
-          <div className="col ">
+          <div className="col-lg-3">
             <div className="container item-1 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center">{strings[lang]["what-we-do-education"]}</p>
@@ -26,7 +26,7 @@ export const WhatWeDo = () => {
               <p className="text-center">{strings[lang]["what-we-do-education-info"]}</p>
             </div>
           </div>
-          <div className="col ">
+          <div className="col-lg-3">
             <div className="container item-2 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center">{strings[lang]["what-we-do-health-care"]}</p>
@@ -35,7 +35,7 @@ export const WhatWeDo = () => {
               <p className="text-center">{strings[lang]["what-we-do-health-care-info"]}</p>
             </div>
           </div>
-          <div className="col ">
+          <div className="col-lg-3">
             <div className="container item-3 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center"> {strings[lang]["what-we-do-culture"]} </p>
@@ -44,7 +44,7 @@ export const WhatWeDo = () => {
               <p className="text-center">{strings[lang]["what-we-do-culture-info"]}</p>
             </div>
           </div>
-          <div className="col ">
+          <div className="col-lg-3">
             <div className="container item-4 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center">{strings[lang]["what-we-do-eco"]} </p>
@@ -55,7 +55,7 @@ export const WhatWeDo = () => {
           </div>
         </div>
         <div className="row" style={{ marginTop: 50 }}>
-          <div className="col ">
+          <div className="col-lg-4">
             <div className="container item-5 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center">{strings[lang]["what-we-do-science"]} </p>
@@ -64,7 +64,7 @@ export const WhatWeDo = () => {
               <p className="text-center">{strings[lang]["what-we-do-science-info"]}</p>
             </div>
           </div>
-          <div className="col ">
+          <div className="col-lg-4">
             <div className="container item-6 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center">{strings[lang]["what-we-do-economy"]}</p>
@@ -73,7 +73,7 @@ export const WhatWeDo = () => {
               <p className="text-center">{strings[lang]["what-we-do-economy-info"]}</p>
             </div>
           </div>
-          <div className="col ">
+          <div className="col-lg-4">
             <div className="container item-7 activities__icon"> </div>
             <div className="activities__title">
               <p className="text-center">{strings[lang]["what-we-do-rights"]}</p>

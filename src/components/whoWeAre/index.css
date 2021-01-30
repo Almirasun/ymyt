@@ -1,8 +1,8 @@
 
-#whoWeAre .second-section__area {
+/* #whoWeAre .second-section__area {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 50px; /*размер был задан не по макету*/
+  grid-column-gap: 50px; /*размер был задан не по макету
 }
 
 #whoWeAre .second-section__title {
@@ -14,7 +14,7 @@
 #whoWeAre .second-section__description {
   font-size: 32px;
   font-weight: normal;
-}
+} */
 
 #whoWeAre .infos {
   font-weight: 400;
@@ -22,4 +22,14 @@
 
 #whoWeAre .info-2 {
   font-style: italic;
+}
+
+@media (max-width: 1200px) {
+  #whoWeAre  {
+    text-align: center;
+  }
+
+  #whoWeAre .info-1 {
+    text-align: center;
+  }
 }

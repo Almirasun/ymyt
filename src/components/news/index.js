@@ -2,9 +2,9 @@ import React, {Component} from "react";
 import axios from "axios";
 import * as ReactRedux from "react-redux";
 import WordpressNews from "./wordpressNews";
-import "./index.css"
+import "./index.css";
+
 export class News extends Component {
-  
   state = {
     news: [],
     isLoaded: false,
@@ -24,30 +24,30 @@ export class News extends Component {
 
   render() {
     const {news} = this.state;
-      
+    const a = news.slice();
     return (
       <div id="news" className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3">
             {news.slice(0, 1).map((e) => (
               <WordpressNews key={e.id} news={e} />
             ))}
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             {news.slice(1, 2).map((e) => (
               <WordpressNews key={e.id} news={e} />
             ))}
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             {news.slice(2, 3).map((e) => (
               <WordpressNews key={e.id} news={e} />
             ))}
           </div>
-          <div className="col-3 last-card">
+          <div className="col-lg-3 last-card">
             {news.slice(3, 4).map((e) => (
               <WordpressNews key={e.id} news={e} />
             ))}
-            <a href="#">{"Все новости нашего фонда >"}</a>
+            <a className="text" href="#">{"Все новости нашего фонда >"}</a>
           </div>
         </div>
       </div>

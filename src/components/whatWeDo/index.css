@@ -51,4 +51,14 @@
     
   }
 
+  @media (max-width: 1200px) {
+    #whatWeDo  {
+      text-align: center;
+    }
+
+    #whatWeDo .activities__icon {
+      margin-top: 25px;
+    }
+  }
+
 

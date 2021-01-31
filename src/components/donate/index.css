@@ -12,12 +12,12 @@
   }
   
   
-  #donate > .frame-first {
+  /* #donate > .frame-first {
     background-color: #F4F4F4;
     height: 400px;
-  }
+  } */
 
-  #donate > .frame-first .bg-image-1 {
+  /* #donate > .frame-first .bg-image-1 {
     background-image: url(./images/image-1.JPG);
   }
 
@@ -38,6 +38,70 @@
 
   #donate > .frame-third .bg-image-3 {
     background-image: url(./images/image-3.jpg);
+  } */
+
+
+
+  /* new */
+  #donate .donate-info {
+    font-weight: 300;
+    font-size: large;
   }
+
+  #donate .donate-title {
+    font-weight: 700;
+    font-size: x-large;
+  }
+
+  #donate .bg-image {
+    height: 50vh;
+    background-image: url(./images/image-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+  }
+
+  #donate .bg-image-3 {
+    height: 50vh;
+    background-image: url(./images/image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+  }
+
+  #donate .bg-image-2 {
+    height: 50vh;
+    background-image: url(./images/image-2.JPG);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+  }
+
+  #donate button {
+    margin-bottom: 70px;
+    background-color: #14ad02;
+    border-radius: 0;
+  }
+
+  #donate .new-elements {
+    background-color: #F4F4F4;
+    margin-bottom: 70px;
+  }
+  
+
+  @media (max-width: 1200px) {
+
+    #donate {
+      margin-top: auto;
+      text-align: center;
+    }
+  
+    #donate .img-area{
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%);
+    } 
+  
+  }
+
   
   

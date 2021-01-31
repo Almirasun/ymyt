@@ -1,0 +1,22 @@
+#projects .project-img {
+  height: 300px;
+  background-color: blue;
+  background-image: url(./images/image-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0;
+}
+
+#projects .projects-title {
+    font-weight: 700;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+#projects .project-description {
+    font-weight: 400;
+}
+
+#projects .row {
+    margin-bottom: 70px;
+}

@@ -1,14 +1,30 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Ymyt бyлагы</h1>
-      </div>
-    )
-  }
+import React from "react";
+import ReactDOM from "react-dom";
+import * as AppRedux from './redux';
+import * as ReactRedux from 'react-redux';
+import * as Components from "./components";
+import "./index.scss";
+
+function App() {
+  return (
+    <div className="App">
+      <Components.Navbar />
+      <Components.Cover />
+      <Components.WhoWeAre />
+      <Components.WhatWeDo />
+      <Components.News />
+      <Components.Gallery />
+      <Components.Donate />
+      <Components.Projects />
+      <Components.OperatingMode />
+      <Components.Footer />
+    </div>
+  );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(
+  <ReactRedux.Provider store={AppRedux.store}>
+    <App />
+  </ReactRedux.Provider>,
+  document.getElementById("root")
+);

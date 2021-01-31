@@ -1,0 +1,38 @@
+#news {
+  margin-top: 70px;
+}
+
+.last-card > a {
+  color: #14ad02;
+}
+
+#newsCard {
+  width: 250px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card {
+  /* border-radius: 0; */
+}
+
+.card-body {
+  background-color: #14ad02;
+}
+
+.card-body > .btn {
+  background-color: #14ad02;
+  border-radius: 0;
+}
+
+
+@media (max-width: 1200px) {
+  .card {
+    margin-bottom: 30px;
+  }
+
+  #news {
+    text-align: center;
+  }
+
+}

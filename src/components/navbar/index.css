@@ -1,0 +1,61 @@
+#navbar {
+  z-index: 9;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+#navbar a {
+  color: black;
+}
+
+#donate-btn {
+  margin-right: 1rem;
+  background-color: #14ad02;
+  border-radius: 0;
+}
+
+#navbar .lang-link {
+  display: inline;
+  padding-bottom: 0; 
+}
+
+#navbar .lang-link:focus {
+  border-bottom: 1px solid black;
+}
+
+#navbar .navbar-brand {
+  margin-right: 8rem;
+}
+
+
+#navbar .nav-item {
+  padding: 0 17px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1239px) {
+
+  #burger {
+    text-align: center;
+    line-height: normal;
+  }
+
+  #donate-btn {
+    margin-right: 0;
+  }
+
+  #navbar .second-ul {
+    white-space: nowrap;
+  }
+  
+  hr {
+    background-color: #14ad02;
+    width: 50%;
+    display: unset;
+  }
+
+}
+
+hr {
+  display: none;
+}

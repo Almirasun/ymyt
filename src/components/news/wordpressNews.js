@@ -15,7 +15,7 @@ export class WordpressNews extends Component {
 
   componentDidMount() {
     const {featured_media} = this.props.news;
-    const getImageUrl = axios.get(`http://ymyt.local///wp-json/wp/v2/media/${featured_media}`);
+    const getImageUrl = axios.get(`https://umutbulagy.000webhostapp.com/wp-json/wp/v2/media/${featured_media}`);
 
     Promise.all([getImageUrl]).then((res) => {
       console.log(res);

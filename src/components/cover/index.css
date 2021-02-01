@@ -43,9 +43,7 @@
   border-radius: 0;
 }
 
-
 @media (max-width: 1200px) {
-
   #app-cover {
     margin-top: auto;
     text-align: center;
@@ -62,6 +60,4 @@
   #app-cover .bg-image {
     width: 100%;
   }
-
-
 }

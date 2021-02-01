@@ -19,8 +19,8 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="container-fluid">
-      <div id="navbar" className="navbar navbar-expand-xl navbar-light">
+    <div>
+      <div id="navbar" className="container-fluid navbar navbar-expand-xl navbar-light">
         <a className="navbar-brand">
           <img src={logo} width={120} alt="Logo" />
         </a>

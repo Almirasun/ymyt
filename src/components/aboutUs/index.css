@@ -1,133 +1,129 @@
 #aboutUs {
-    margin-top: -100.7px;
-  }
-  
-  #aboutUs .bg-image {
-    height: 80vh;
-    background-image: url(./images/img-aboutus.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 0;
-  }
-  
-  #aboutUs .bg-title {
-    height: 80vh;
-    margin-left: 5%;
-  }
-  
-  #aboutUs .bg-image > .arrow {
-    width: 0;
-    height: 0;
-    border-top: 40vh solid transparent;
-    border-bottom: 40vh solid transparent;
-    border-left: 100px solid white;
-  }
-  
-  #aboutUs .h1 {
-    font-weight: 700;
-    font-size: 3.5rem;
-    margin-top: 70px;
-  }
-  
-  #aboutUs .contact-button {
-    margin-bottom: 70px;
-    background-color: #14ad02;
-    border-radius: 0;
-  }
-  
-  
-  #mission .second-sectionarea {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 50px;
-  }
-  
-  #mission .second-sectiontitle {
-    font-size: 64px;
-    font-weight: bold;
-    width: 408px;
-  }
-  
-  #mission .second-sectiondescription {
-    font-size: 32px;
-    font-weight: normal;
-  }
-  
-  #mission .infos {
-    font-weight: 400;
-  }
-  
-  #mission .info-2 {
-    font-style: italic;
-  }
-  
-  /***/
-  
-  .container .activitiesicon {
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  
-  .container > .activities .item-8 {
+  margin-top: -100.7px;
+}
+
+#aboutUs .bg-image {
+  height: 80vh;
+  background-image: url(./images/img-aboutus.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0;
+}
+
+#aboutUs .bg-title {
+  height: 80vh;
+  margin-left: 5%;
+}
+
+#aboutUs .bg-image > .arrow {
+  width: 0;
+  height: 0;
+  border-top: 40vh solid transparent;
+  border-bottom: 40vh solid transparent;
+  border-left: 100px solid white;
+}
+
+#aboutUs .h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 70px;
+}
+
+#aboutUs .contact-button {
+  margin-bottom: 70px;
+  background-color: #14ad02;
+  border-radius: 0;
+}
+
+#mission .second-sectionarea {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 50px;
+}
+
+#mission .second-sectiontitle {
+  font-size: 64px;
+  font-weight: bold;
+  width: 408px;
+}
+
+#mission .second-sectiondescription {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+#mission .infos {
+  font-weight: 400;
+}
+
+#mission .info-2 {
+  font-style: italic;
+}
+
+/***/
+
+.container .activitiesicon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container > .activities .item-8 {
   background-image: url(./images/icon-8.png);
-  }
-  
-  .container > .activities .item-9 {
-    background-image: url(./images/icon-9.png);
-  }
-  
-  .container > .activities .item-10 {
-    background-image: url(./images/icon-10.png);
-  }
-  
-  .container > .activities .item-11 {
-    background-image: url(./images/icon-11.png);
-  }
-  
-  .container > .activities .item-12 {
-    background-image: url(./images/icon-12.png);
-  }
-  
-  
-  /* .container > .activities .activities__title {
+}
+
+.container > .activities .item-9 {
+  background-image: url(./images/icon-9.png);
+}
+
+.container > .activities .item-10 {
+  background-image: url(./images/icon-10.png);
+}
+
+.container > .activities .item-11 {
+  background-image: url(./images/icon-11.png);
+}
+
+.container > .activities .item-12 {
+  background-image: url(./images/icon-12.png);
+}
+
+/* .container > .activities .activities__title {
       font-style: bold;
   } */
 
-  #aboutUs .row {
-    margin-bottom: 100px;
+#aboutUs .row {
+  margin-bottom: 100px;
+}
+
+#ourTeam .text-center {
+  margin-bottom: 0;
+}
+
+#ourTeam .info-1 {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  #aboutUs {
+    text-align: center;
   }
-  
-  #ourTeam .text-center {
-    margin-bottom: 0;
+
+  #aboutUs .bg-image > .arrow {
+    display: none;
+  }
+
+  #aboutUs .row {
+    margin-bottom: 10px;
+  }
+
+  .activities__icon {
+    margin-top: 25px;
   }
 
   #ourTeam .info-1 {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
+    margin-top: 50px;
   }
-
-
-  @media (max-width: 1200px) {
-    #aboutUs  {
-      text-align: center;
-    }
-
-    #aboutUs .bg-image > .arrow {
-      display: none;
-    }
-
-    #aboutUs .row {
-      margin-bottom: 10px;
-    }
-
-    .activities__icon{
-      margin-top: 25px;
-    }
-
-    #ourTeam .info-1 {
-      margin-bottom: 25px;
-      margin-top: 50px;
-    }
-  
-  }
+}

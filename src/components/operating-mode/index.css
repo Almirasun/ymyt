@@ -2,21 +2,42 @@
   background-color: #fbfbfb;
   margin-top: 150px;
   margin-bottom: 150px;
+  padding-top: 50px;
+}
+
+#operating-mode button {
+  background-color: #14ad02;
+  border-radius: 0;
+}
+
+#operating-mode .visit-title {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+#operating-mode .visit-info {
+  font-weight: 300;
+  font-size: large;
 }
 
 #operating-mode .top {
-    padding-top: 30px;
-
+  padding-top: 30px;
 }
 
 #operating-mode .days {
-    font-weight: 300;
+  font-weight: 300;
 }
 #operating-mode .time {
-    font-weight: 400;
+  font-weight: 400;
 }
 
-#operating-mode .bottom{
-    padding-bottom: 30px;
+#operating-mode .bottom {
+  padding-bottom: 30px;
+}
 
+
+@media (max-width: 1200px) {
+    #operating-mode {
+        text-align: center;
+    }
 }

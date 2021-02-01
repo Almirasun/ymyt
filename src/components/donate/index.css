@@ -61,6 +61,11 @@
     padding-left: 0;
   }
 
+  #donate .bg-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   #donate .bg-image-3 {
     height: 50vh;
     background-image: url(./images/image-3.jpg);

@@ -106,7 +106,10 @@ const ru = {
   "join-button": "Присоединиться",
 
   // operating mode
-  work: "Режим работы",
+  "visit-title":"Запланировать визит",
+  "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+  "visit-button":"Запланировать",
+  "work": "Режим работы",
   "work-days": "Пн-Пт:",
   "work-time": "09:00 - 18:00",
   "work-break": "Перерыв:",
@@ -141,6 +144,8 @@ const ru = {
 
   // news
   "news-link": "Все новости нашего фонда ⇢",
+
+
 };
 
 export default ru;

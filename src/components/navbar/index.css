@@ -1,7 +1,8 @@
 #navbar {
-  z-index: 9;
+  z-index: 8;
   font-weight: 400;
   padding-top: 10px;
+  background-image: linear-gradient(to bottom, rgb(255 255 255 / 74%), rgba(0, 0, 0, 0));
 }
 
 #navbar a {
@@ -14,10 +15,6 @@
   border-radius: 0;
 }
 
-#navbar .lang-link {
-  display: inline;
-  padding-bottom: 0; 
-}
 
 #navbar .lang-link:focus {
   border-bottom: 1px solid black;
@@ -27,14 +24,20 @@
   margin-right: 8rem;
 }
 
-
 #navbar .nav-item {
   padding: 0 17px;
   font-size: 1.2rem;
+  text-align: center;
+  line-height: normal;
+}
+
+#navbar .lang-link {
+  display: inline;
+  padding-bottom: 0;
+  padding: 0;
 }
 
 @media (max-width: 1239px) {
-
   #burger {
     text-align: center;
     line-height: normal;
@@ -47,15 +50,15 @@
   #navbar .second-ul {
     white-space: nowrap;
   }
-  
+
   hr {
     background-color: #14ad02;
     width: 50%;
     display: unset;
   }
-
 }
 
 hr {
   display: none;
 }
+

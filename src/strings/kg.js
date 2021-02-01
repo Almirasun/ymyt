@@ -107,6 +107,9 @@ const kg = {
   "join-button": "Присоединиться",
 
   // operating mode
+  "visit-title":"Запланировать визит",
+  "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+  "visit-button":"Запланировать",
   "work": "Иштөө режими",
   "work-days": "Дүйшөмбү-Жума:",
   "work-time": "09:00 - 18:00",

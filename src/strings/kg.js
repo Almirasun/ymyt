@@ -107,8 +107,8 @@ const kg = {
   "join-button": "Присоединиться",
 
   // operating mode
-  "work": "Иштөө режими",
-  "work-days": "Дүйшөмбү-Жума:",
+  "work": "Режим работы",
+  "work-days": "Пн-Пт:",
   "work-time": "09:00 - 18:00",
   "work-break": "Тыныгуу:",
   "work-break-time": "13:00 - 14:00",

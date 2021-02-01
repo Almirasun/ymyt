@@ -1,25 +1,26 @@
 const kg = {
   // Navbar
-  "navbar-link-main": "Главная KG",
-  "navbar-link-about-us": "О нас KG",
-  "navbar-link-projects": "Проекты KG",
-  "navbar-link-news": "Новости KG",
-  "navbar-link-contacts": "Контакты KG",
-  "navbar-link-donate": "Пожертвовать KG",
+  "navbar-link-main": "Башкы бет",
+  "navbar-link-about-us": "Биз жөнүндө",
+  "navbar-link-projects": "Долбоорлор",
+  "navbar-link-news": "Жаңылыктар",
+  "navbar-link-contacts": "Байланыш жолдору",
+  "navbar-link-donate": "Кайрымдуулук кылуу",
   "navbar-lang-ru": "RU",
   "navbar-lang-kg": "KG",
   "navbar-lang-en": "EN",
 
   // Modal
-  "modal-title":"Пожертвовать",
-  "modal-close-btn":"Закрыть",
-  "modal-info":"ЭЛСОМ 0777111222",
+  "modal-title": "Пожертвовать",
+  "modal-close-btn": "Закрыть",
+  "modal-info": "ЭЛСОМ 0777111222",
 
   //   Cover
   "cover-title": "Yмγт бyлагы",
   "cover-moto": "Эне-балага тирек",
-  "cover-contact-us-button": "Связаться с нами",
-  "cover-follow-us": "Следите за нами:",
+  "cover-contact-us-button": "Биз менен байланышуу",
+  "cover-follow-us": "Биз жөнүндө маалымат алып туруңуз:",
+
 
   // Who we are
   "who-we-are-title": "Биз кимбиз ?",
@@ -28,6 +29,18 @@ const kg = {
   "who-we-are-info2":
     'Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
   "who-we-are-author": "- А. Жапарова",
+
+  // About Us
+  "about-us-title": "О нас",
+
+  // Out team
+  "our-team": "Наша команда",
+  "our-team-management": "Руководство: А. Жапарова",
+  "our-team-project": "Проектная деятельность",
+  "our-team-accounting": "Бухгалтерия",
+  "our-team-lawyer": "Юрист",
+  "our-team-smm": "СММ",
+
   // Mission
   "mission-title": "Биздин миссия",
   "mission-info":
@@ -54,10 +67,10 @@ const kg = {
 
   // donations amount
 
-  "donations-sum": "Общий сбор пожертвований",
-  "donations-kids": "Пожертовано детям",
-  "donations-mother": "Пожертвовано матерям-одиночками",
-  "donations-other": "Другие пожертвования",
+  "donations-sum": "Кайрымдуулук каражаттардын жалпы жыйнагы",
+  "donations-kids": "Балдарга көрсөтүлгөн кайрымдуулуктар",
+  "donations-mother": "Жалгыз энелерге көрсөтүлгөн кайрымдуулуктар",
+  "donations-other": "Башкаларга көрсөтүлгөн кайрымдуулуктар",
 
   //  Gallery
   "gallery-title": "Галерея",
@@ -66,7 +79,7 @@ const kg = {
   "donate-now": "Азыр кайрымдуулук көрсөтүү",
   "donate-now-info":
     "Бизге кошулуңуз. Кыргызстандагы энелер менен балдарга, калктын аярлуу катмарына колдоо көрсөтүңүз.",
-  "donate-button": "Пожертвовать",
+    "donate-button": "Кайрымдуулук кылуу",
   "donate-button-info":
     "Андан соң, сиз кайрымдуулук каражатын которуу үчүн коопсуз төлөм баракчасына өтө аласыз.",
 
@@ -80,7 +93,7 @@ const kg = {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
 
   // send request
-  "send-request": "Отправить запрос на получение помощи",
+  "send-request": "Жардам алуу үчүн кайрылуу",
   "send-request-info":
     '"Үмүт Булагы" Коомдук фонду өлкө боюнча жалгыз бой энелерге, жетим балдарга жана калктын башка аярлуу катмарына материалдык жана башка түрүндө жардам берет.',
   "send-request-button": "Отправить",
@@ -94,7 +107,7 @@ const kg = {
   "join-button": "Присоединиться",
 
   // operating mode
-  work: "Режим работы",
+  "work": "Режим работы",
   "work-days": "Пн-Пт:",
   "work-time": "09:00 - 18:00",
   "work-break": "Перерыв:",
@@ -106,14 +119,14 @@ const kg = {
   "work-sunday-time": "Выходной",
 
   // footer
-  "footer-links": "Быстрые ссылки",
-  "footer-news": "Новости",
-  "footer-projects": "Проекты",
-  "footer-about-us": "О нас",
-  "footer-adress": "Адрес",
-  "footer-city": "720031, Кыргызстан, г. Бишкек",
-  "footer-street": "ул. Ибраимова 100, 6 этаж",
-  "footer-contacts": "Контактные данные",
+  "footer-links": "Шилтемелер",
+  "footer-news": "Жаңылыктыр",
+  "footer-projects": "Долбоорлор",
+  "footer-about-us": "Биз жөнүндө",
+  "footer-adress": "Дарек",
+  "footer-city": "720031, Кыргызстан, Бишкек ш.",
+  "footer-street": "Ибраимова 100 көчөсү, 6 этаж",
+  "footer-contacts": "Байланыш маалыматар",
   "footer-phone": "+996(501)345-777",
   "footer-email": "ubulagy@gmail.com ",
 
@@ -129,7 +142,6 @@ const kg = {
 
   // news
   "news-link": "Все новости нашего фонда ⇢",
-
 };
 
 export default kg;

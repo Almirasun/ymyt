@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import * as ReactRedux from "react-redux";
 import * as AppRedux from "../../redux";
+import {Link} from "react-router-dom";
 
 import "./index.css";
 
@@ -38,9 +39,11 @@ export const Navbar = () => {
         <div id="burger" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link nav-menu" href="/">
-                {strings[lang]["navbar-link-main"]}
-              </a>
+              <Link to="/">
+                <a className="nav-link nav-menu" href="/">
+                  {strings[lang]["navbar-link-main"]}
+                </a>
+              </Link>
             </li>
             <hr />
             <li className="nav-item">
@@ -49,9 +52,11 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link nav-menu" href="/">
-                {strings[lang]["navbar-link-about-us"]}
-              </a>
+              <Link to="/about-us">
+                <a className="nav-link nav-menu" href="/">
+                  {strings[lang]["navbar-link-about-us"]}
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#footer">
@@ -61,7 +66,12 @@ export const Navbar = () => {
           </ul>
           <ul className="navbar-nav ml-auto second-ul">
             <li className="nav-item">
-              <button id="donate-btn" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button
+                id="donate-btn"
+                className="btn btn-success"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 {strings[lang]["navbar-link-donate"]}
               </button>
             </li>

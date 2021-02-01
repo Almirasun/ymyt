@@ -11,9 +11,9 @@ const kg = {
   "navbar-lang-en": "EN",
 
   // Modal
-  "modal-title":"Пожертвовать",
-  "modal-close-btn":"Закрыть",
-  "modal-info":"ЭЛСОМ 0777111222",
+  "modal-title": "Пожертвовать",
+  "modal-close-btn": "Закрыть",
+  "modal-info": "ЭЛСОМ 0777111222",
 
   //   Cover
   "cover-title": "Yмγт бyлагы",
@@ -28,6 +28,18 @@ const kg = {
   "who-we-are-info2":
     'Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
   "who-we-are-author": "- А. Жапарова",
+
+  // About Us
+  "about-us-title": "О нас",
+
+  // Out team
+  "our-team": "Наша команда",
+  "our-team-management": "Руководство: А. Жапарова",
+  "our-team-project": "Проектная деятельность",
+  "our-team-accounting": "Бухгалтерия",
+  "our-team-lawyer": "Юрист",
+  "our-team-smm": "СММ",
+
   // Mission
   "mission-title": "Биздин миссия",
   "mission-info":
@@ -129,7 +141,6 @@ const kg = {
 
   // news
   "news-link": "Все новости нашего фонда ⇢",
-
 };
 
 export default kg;

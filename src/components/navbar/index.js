@@ -39,7 +39,7 @@ export const Navbar = () => {
         <div id="burger" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/">
+              <Link to="/Ymyt">
                 <a className="nav-link nav-menu" href="/">
                   {strings[lang]["navbar-link-main"]}
                 </a>
@@ -52,7 +52,7 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <Link to="/about-us">
+              <Link to="/Ymyt/about-us">
                 <a className="nav-link nav-menu" href="/">
                   {strings[lang]["navbar-link-about-us"]}
                 </a>

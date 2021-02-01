@@ -2,7 +2,7 @@
   z-index: 8;
   font-weight: 400;
   padding-top: 10px;
-  background-image: linear-gradient(to bottom, rgb(255 255 255 / 74%), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom, rgb(255 255 255 / 45%), rgba(0, 0, 0, 0));
 }
 
 #navbar a {

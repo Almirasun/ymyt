@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Components.HomePage} />
-        <Route path="/about-us" component={Components.AboutUsPage} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={Components.HomePage} />
+        <Route path="/Ymyt/about-us" component={Components.AboutUsPage} />
       </Switch>
     </BrowserRouter>
   );

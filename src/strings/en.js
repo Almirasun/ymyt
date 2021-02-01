@@ -103,15 +103,18 @@ const en = {
   "join-button": "Join",
 
   // operating mode
-  work: "Режим работы",
+  "visit-title":"Запланировать визит",
+  "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+  "visit-button":"Запланировать",
+  "work": "Operating hours",
   "work-days": "M-F:",
   "work-time": "09:00 - 18:00",
-  "work-break": "Перерыв:",
+  "work-break": "Break:",
   "work-break-time": "13:00 - 14:00",
   "work-day-off": "S-S:",
-  "work-saturday": "Суббота:",
+  "work-saturday": "Saturday:",
   "work-saturday-time": "09:00 - 16:00",
-  "work-sunday": "Воскресенье:",
+  "work-sunday": "Sunday:",
   "work-sunday-time": "Days off",
 
   // footer

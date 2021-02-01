@@ -16,7 +16,7 @@ const HomePage = () => {
       <Components.News />
       <Components.Gallery />
       <Components.Donate />
-      <Components.Projects />
+      {/* <Components.Projects /> */}
       <Components.OperatingMode />
       <Components.Footer />
     </div>

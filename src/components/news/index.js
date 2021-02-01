@@ -12,7 +12,7 @@ export class News extends Component {
 
   componentDidMount() {
     axios
-      .get("http://ymyt.local/wp-json/wp/v2/ymyt-news")
+      .get("https://umutbulagy.000webhostapp.com/wp-json/wp/v2/news")
       .then((res) =>
         this.setState({
           news: res.data,

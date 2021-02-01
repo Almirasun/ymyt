@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Ymyt/static/css/main.74c2d9f5.chunk.css",
-    "main.js": "/Ymyt/static/js/main.fcf72587.chunk.js",
-    "main.js.map": "/Ymyt/static/js/main.fcf72587.chunk.js.map",
+    "main.css": "/Ymyt/static/css/main.18fd538a.chunk.css",
+    "main.js": "/Ymyt/static/js/main.95b3cf0d.chunk.js",
+    "main.js.map": "/Ymyt/static/js/main.95b3cf0d.chunk.js.map",
     "runtime-main.js": "/Ymyt/static/js/runtime-main.02c5b0d9.js",
     "runtime-main.js.map": "/Ymyt/static/js/runtime-main.02c5b0d9.js.map",
     "static/js/2.75c7d8f8.chunk.js": "/Ymyt/static/js/2.75c7d8f8.chunk.js",
     "static/js/2.75c7d8f8.chunk.js.map": "/Ymyt/static/js/2.75c7d8f8.chunk.js.map",
     "index.html": "/Ymyt/index.html",
-    "static/css/main.74c2d9f5.chunk.css.map": "/Ymyt/static/css/main.74c2d9f5.chunk.css.map",
+    "static/css/main.18fd538a.chunk.css.map": "/Ymyt/static/css/main.18fd538a.chunk.css.map",
     "static/js/2.75c7d8f8.chunk.js.LICENSE.txt": "/Ymyt/static/js/2.75c7d8f8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Ymyt/static/media/img-aboutus.009bc65e.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.02c5b0d9.js",
     "static/js/2.75c7d8f8.chunk.js",
-    "static/css/main.74c2d9f5.chunk.css",
-    "static/js/main.fcf72587.chunk.js"
+    "static/css/main.18fd538a.chunk.css",
+    "static/js/main.95b3cf0d.chunk.js"
   ]
 }

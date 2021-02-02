@@ -66,14 +66,16 @@ export const Navbar = () => {
           </ul>
           <ul className="navbar-nav ml-auto second-ul">
             <li className="nav-item">
-              <button
-                id="donate-btn"
-                className="btn btn-success"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                {strings[lang]["navbar-link-donate"]}
-              </button>
+              <Link to="/Ymyt/donateForm">
+                <button
+                  id="donate-btn"
+                  className="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  {strings[lang]["navbar-link-donate"]}
+                </button>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link lang-link" href="/" onClick={handleLangClick("ru")}>

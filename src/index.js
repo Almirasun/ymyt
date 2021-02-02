@@ -12,6 +12,9 @@ function App() {
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + "/"} component={Components.HomePage} />
         <Route path="/Ymyt/about-us" component={Components.AboutUsPage} />
+        <Route path="/Ymyt/donateForm" component={Components.DonateGoogleForm} />
+        <Route path="/Ymyt/requestForm" component={Components.RequestGoogleForm} />
+        <Route path="/Ymyt/joinForm" component={Components.JoinGoogleForm} />
       </Switch>
     </BrowserRouter>
   );

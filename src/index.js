@@ -12,6 +12,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={Components.HomePage} />
         <Route path="/about-us" component={Components.AboutUsPage} />
+        <Route path="/donateForm" component={Components.DonateGoogleForm} />
+        <Route path="/requestForm" component={Components.RequestGoogleForm} />
+        <Route path="/joinForm" component={Components.JoinGoogleForm} />
+        
       </Switch>
     </BrowserRouter>
   );

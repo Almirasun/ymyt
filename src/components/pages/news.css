@@ -1,0 +1,70 @@
+#news {
+  margin-top: -100.7px;
+}
+
+#news .bg-image {
+  height: 80vh;
+  background-image: url(./img-news.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0;
+}
+
+#news .bg-title {
+  height: 80vh;
+  margin-left: 5%;
+}
+
+#news .bg-image > .arrow {
+  width: 0;
+  height: 0;
+  border-top: 40vh solid transparent;
+  border-bottom: 40vh solid transparent;
+  border-left: 100px solid white;
+}
+
+#news .h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 70px;
+}
+
+#news .moto {
+  font-weight: 400;
+  color: #14ad02;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#news .contact-button {
+  margin-bottom: 70px;
+  background-color: #14ad02;
+  border-radius: 0;
+}
+  
+  
+#mission .second-section__area {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 50px; /*размер был задан не по макету*/
+}
+
+#mission .second-section__title {
+  font-size: 64px;
+  font-weight: bold;
+  width: 408px;
+}
+
+#mission .second-section__description {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+#mission .infos {
+  font-weight: 400;
+}
+
+#mission .info-2 {
+  font-style: italic;
+}

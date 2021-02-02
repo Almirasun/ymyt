@@ -18,7 +18,10 @@ export const Cover = () => {
               <button className="btn btn-success mt-4 mb-4 contact-button">
                 {strings[lang]["cover-contact-us-button"]}
               </button>
-              <div>{strings[lang]["cover-follow-us"]}</div>
+              <div className="d-flex align-items-center">
+                <div style={{ marginRight: 15 }}>{strings[lang]["cover-follow-us"]}</div>
+                <Components.SocialIcons />
+              </div>              
             </div>
           </div>
           <div className="col-7 bg-image">

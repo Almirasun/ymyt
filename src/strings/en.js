@@ -23,6 +23,7 @@ const en = {
   "who-we-are-info2": '"We primarily strive to help children and mothers. To improve their quality of life, to protect and empower them. Umut bulagy – is a pillar for mother and child".',
   "who-we-are-author": "A. Zhaparova",
   // Mission
+  "about-us-title": "About us",
   "mission-title":"Our mission",
   "mission-info":"Supporting the creation of essential conditions for the health and comprehensive development of single mothers, orphans and other vulnerable groups in Kyrgyzstan to achieve social justice and impartiality in the society.",
   
@@ -113,6 +114,16 @@ const en = {
   "appeal-title":"Обращение первой леди Айгуль Жапаровой",
   "appeal-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
   
+  // news
+  "news-title": "News",
+
+  // aboutUs
+  "our-team": "Наша команда",
+  "our-team-management": "Руководство: А. Жапарова",
+  "our-team-project": "Проектная деятельность",
+  "our-team-accounting": "Бухгалтерия",
+  "our-team-lawyer": "Юрист",
+  "our-team-smm": "СММ",
 };
 
 export default en

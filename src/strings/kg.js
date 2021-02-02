@@ -22,6 +22,7 @@ const kg = {
   "who-we-are-info2": 'Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
   "who-we-are-author": "А. Жапарова",
   // Mission
+  "about-us-title": "Биз жөнүндө",
   "mission-title":"Биздин миссия",
   "mission-info":"Кыргызстандагы жалгыз бой энелердин, жетим балдардын жана калктын муктаж болгон катмарларынын ден-соолугу жана толук кандуу өнүгүшү үчүн зарыл шарттарды түзүүгө салым кошуу аркылуу коомдогу социалдык адилеттүүлүккө жана бейтараптуулукка жетишүү.",
 
@@ -116,6 +117,17 @@ const kg = {
   "appeal-title": "Обращение первой леди Айгуль Жапаровой",
   "appeal-info":
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
-};
+
+  // news
+  "news-title": "Жаңылыктар",
+
+  // aboutUs
+  "our-team": "Наша команда",
+  "our-team-management": "Руководство: А. Жапарова",
+  "our-team-project": "Проектная деятельность",
+  "our-team-accounting": "Бухгалтерия",
+  "our-team-lawyer": "Юрист",
+  "our-team-smm": "СММ",
+  };
 
 export default kg;

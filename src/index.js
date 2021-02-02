@@ -4,11 +4,11 @@ import * as AppRedux from './redux';
 import * as ReactRedux from 'react-redux';
 import * as Components from "./components";
 import "./index.scss";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <Components.Navbar />
+    <>
       <Components.Cover />
       <Components.WhoWeAre />
       <Components.WhatWeDo />
@@ -16,9 +16,25 @@ function App() {
       <Components.Gallery />
       <Components.Donate />
       <Components.Projects />
-      <Components.Request />
-      <Components.OperatingMode />
-      <Components.Footer />
+      {/* <Components.Request /> */}
+      <Components.OperatingMode /> 
+    </>
+  )
+}
+
+function App() {
+  return (
+    <div className="App">      
+      
+      <Router>  
+        <Components.Navbar />   
+        <Route path="/" component={Home} exact />
+        <Route path="/aboutUs" component={Components.AboutUs} />
+        <Route path="/news" component={Components.News} />
+        <Components.Footer />
+      </Router>
+
+      
     </div>
   );
 }

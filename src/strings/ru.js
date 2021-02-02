@@ -24,7 +24,8 @@ const ru = {
   "who-we-are-author": "А. Жапарова",
 
   // Mission
-  "mission-title":"Наша миссия",
+  "about-us-title": "О нас",
+  "mission-title":"Миссия фонда",
   "mission-info":"Содействие созданию необходимых условий для здоровья и полноценного развития матерей-одиночек, детей сирот и других нуждающихся групп населения Кыргызстана для достижения социальной справедливости и беспристрастности в обществе.",
   
 
@@ -115,7 +116,16 @@ const ru = {
   "appeal-title":"Обращение первой леди Айгуль Жапаровой",
   "appeal-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
   
+  // news
+  "news-title": "Новости",
 
+  // aboutUs
+  "our-team": "Наша команда",
+  "our-team-management": "Руководство: А. Жапарова",
+  "our-team-project": "Проектная деятельность",
+  "our-team-accounting": "Бухгалтерия",
+  "our-team-lawyer": "Юрист",
+  "our-team-smm": "СММ",
 };
 
 export default ru

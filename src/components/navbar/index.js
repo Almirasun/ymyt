@@ -4,6 +4,9 @@ import "./index.css";
 // import * as Strings from "../../strings/strings"
 import * as ReactRedux from "react-redux";
 import * as AppRedux from "../../redux";
+import {Link} from 'react-router-dom';
+import AboutUs from '../pages/aboutUs'
+
 
 export const Navbar = () => {
   const dispatch = ReactRedux.useDispatch();
@@ -34,28 +37,27 @@ export const Navbar = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div id="burger" className="collapse navbar-collapse">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link nav-menu" href="/">
+              <Link className="nav-link nav-menu" to="/">
                 {strings[lang]["navbar-link-main"]}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link nav-menu" href="/">
+              <Link className="nav-link nav-menu" to="">
                 {strings[lang]["navbar-link-projects"]}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link nav-menu" href="/">
+              <Link className="nav-link nav-menu" to="/aboutUs">
                 {strings[lang]["navbar-link-about-us"]}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 {strings[lang]["navbar-link-contacts"]}
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto">
@@ -83,5 +85,15 @@ export const Navbar = () => {
         </div>
       </div>
     </div>
+    
+  
+
+  // <Router>
+  //   <Switch>
+  //     <Route exact path="/" component={AboutUs} />
+  //     <Route exact path="/" component={News} />
+  //   </Switch>
+  // </Router>
+
   );
 };

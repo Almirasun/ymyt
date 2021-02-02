@@ -36,7 +36,7 @@ export const Donate = () => {
                 </div>
             </div>
 
-            <div className='frame-second' style={{ marginBottom: 120 }}>
+            <div className='frame-second' style={{ marginTop: 120 }}>
                 <div className='container-fluid'>
                     <div className='row d-flex flex-row-reverse bd-highlight'>
                         <div className='col' />
@@ -62,7 +62,7 @@ export const Donate = () => {
                 </div>
             </div>
 
-            <div className='frame-third' style={{ marginBottom: 120 }}>
+            <div className='frame-third' style={{ marginTop: 120 }}>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col' />

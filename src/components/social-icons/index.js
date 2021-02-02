@@ -14,6 +14,9 @@ export const SocialIcons = () => {
             <a className="icon instagram" href="https://www.instagram.com/">
               <i className="fab fa-instagram" />
             </a>
+            <a className="icon youtube" href="https://www.youtube.com/">
+              <i className="fab fa-youtube" />
+            </a>
         </div>
           
     )

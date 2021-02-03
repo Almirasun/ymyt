@@ -35,7 +35,6 @@ export const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div id="burger" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -49,7 +48,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link nav-menu" href="#projects">
                 {strings[lang]["navbar-link-projects"]}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link to="/about-us">
@@ -91,5 +90,15 @@ export const Navbar = () => {
         </div>
       </div>
     </div>
+    
+  
+
+  // <Router>
+  //   <Switch>
+  //     <Route exact path="/" component={AboutUs} />
+  //     <Route exact path="/" component={News} />
+  //   </Switch>
+  // </Router>
+
   );
 };

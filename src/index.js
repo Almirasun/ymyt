@@ -5,8 +5,9 @@ import * as ReactRedux from "react-redux";
 import * as Components from "./components";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import "./index.scss";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
+function Home() {
   return (
     <BrowserRouter>
         <Route exact path="/" component={Components.HomePage} />

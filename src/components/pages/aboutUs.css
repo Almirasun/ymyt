@@ -1,0 +1,111 @@
+#aboutUs {
+  margin-top: -100.7px;
+}
+
+#aboutUs .bg-image {
+  height: 80vh;
+  background-image: url(./img-aboutus.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0;
+}
+
+#aboutUs .bg-title {
+  height: 80vh;
+  margin-left: 5%;
+}
+
+#aboutUs .bg-image > .arrow {
+  width: 0;
+  height: 0;
+  border-top: 40vh solid transparent;
+  border-bottom: 40vh solid transparent;
+  border-left: 100px solid white;
+}
+
+#aboutUs .h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 70px;
+}
+
+#aboutUs .moto {
+  font-weight: 400;
+  color: #14ad02;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#aboutUs .contact-button {
+  margin-bottom: 70px;
+  background-color: #14ad02;
+  border-radius: 0;
+}
+  
+  
+#mission .second-section__area {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 50px; /*размер был задан не по макету*/
+}
+
+#mission .second-section__title {
+  font-size: 64px;
+  font-weight: bold;
+  width: 408px;
+}
+
+#mission .second-section__description {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+#mission .infos {
+  font-weight: 400;
+}
+
+#mission .info-2 {
+  font-style: italic;
+}
+
+/*******************************************************/
+
+.container .activities__icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container > .activities .item-8 {
+background-image: url(./images/icon-8.png);
+}
+
+.container > .activities .item-9 {
+  background-image: url(./images/icon-9.png);
+}
+
+.container > .activities .item-10 {
+  background-image: url(./images/icon-10.png);
+}
+
+.container > .activities .item-11 {
+  background-image: url(./images/icon-11.png);
+}
+
+.container > .activities .item-12 {
+  background-image: url(./images/icon-12.png);
+}
+
+
+/* .container > .activities .activities__title {
+    font-style: bold;
+} */
+
+#ourTeam .text-center {
+  margin-bottom: 0;
+  
+}
+
+

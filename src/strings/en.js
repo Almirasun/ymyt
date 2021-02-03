@@ -41,6 +41,7 @@ const en = {
   "our-team-smm": "СММ",
 
   // Mission
+  "about-us-title": "About us",
   "mission-title":"Our mission",
   "mission-info":"Supporting the creation of essential conditions for the health and comprehensive development of single mothers, orphans and other vulnerable groups in Kyrgyzstan to achieve social justice and impartiality in the society.",
   

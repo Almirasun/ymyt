@@ -92,7 +92,7 @@ const ru = {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
 
   // send request
-  "send-request": "Отправить запрос на получение помощи",
+  "send-request": "Отправить запрос на консультацию",
   "send-request-info":
     "Общественный фонд «Умут булагы» помогает матерям-одиночкам, детям-сиротам и иным уязвимым группам населения по всей стране в виде материальных и нематериальных благ.",
   "send-request-button": "Отправить",

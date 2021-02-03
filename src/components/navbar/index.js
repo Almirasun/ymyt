@@ -66,13 +66,8 @@ export const Navbar = () => {
           </ul>
           <ul className="navbar-nav ml-auto second-ul">
             <li className="nav-item">
-              <Link to='/donateForm'>
-                <button
-                  id="donate-btn"
-                  className="btn btn-success"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
+              <Link to="/donateForm">
+                <button id="donate-btn" className="btn btn-success">
                   {strings[lang]["navbar-link-donate"]}
                 </button>
               </Link>
@@ -93,31 +88,6 @@ export const Navbar = () => {
               </a>
             </li>
           </ul>
-        </div>
-      </div>
-
-      {/* Modal */}
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                {strings[lang]["modal-title"]}
-              </h5>
-            </div>
-            <div class="modal-body">{strings[lang]["modal-info"]}</div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">
-                {strings[lang]["modal-close-btn"]}
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </div>

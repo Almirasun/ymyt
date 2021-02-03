@@ -1,0 +1,23 @@
+#newsData img {
+    margin-bottom: 100px;
+}   
+
+#newsData h3 {
+    border-left: 1px solid #14ad02;
+    padding-left: 10px;
+    height: 60px;
+}
+
+#newsData p {
+    font-weight: 300;
+}
+
+
+@media (max-width: 1200px) {
+  
+    #newsData .news-img {
+        margin-bottom: 20px;
+    }
+
+}
+

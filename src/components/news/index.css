@@ -12,8 +12,8 @@
   line-height: normal;
 }
 
-.card {
-  /* border-radius: 0; */
+#news a {
+  color: #14ad02;
 }
 
 .card-body {

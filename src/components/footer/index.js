@@ -1,6 +1,7 @@
 import React from "react";
 import * as ReactRedux from "react-redux";
 import logo from "./logo.png";
+import {Link} from "react-router-dom";
 import "./index.css";
 
 export const Footer = () => {
@@ -21,9 +22,11 @@ export const Footer = () => {
 
               <ul className="list-unstyled">
                 <li>
-                  <a href="#!" className="text-dark">
-                    {strings[lang]["footer-news"]}
-                  </a>
+                  <Link to="/newsPage">
+                    <a href="#!" className="text-dark">
+                      {strings[lang]["footer-news"]}
+                    </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#!" className="text-dark">

@@ -145,6 +145,7 @@ const kg = {
 
   // news
   "news-link": "Все новости нашего фонда ⇢",
+  "news-title":"Жаңылыктыр",
 };
 
 export default kg;

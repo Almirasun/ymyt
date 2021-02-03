@@ -141,6 +141,7 @@ const en = {
 
   // news
   "news-link": "All our news ⇢",
+  "news-title":"News",
 };
 
 export default en;

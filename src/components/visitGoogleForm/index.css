@@ -1,0 +1,7 @@
+.google-form {
+    text-align: center;
+}
+
+.google-form > iframe {
+    margin-top: 70px;
+}

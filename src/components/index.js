@@ -11,8 +11,14 @@ export * from './projects'
 export * from './operating-mode'
 export * from './footer'
 export * from './aboutUs'
-export * from './HomePage'
-export * from './AboutUsPage'
+export * from './newsPageData'
+// Google Forms
 export * from './donateGoogleForm'
 export * from './joinGoogleForm'
 export * from './requestGoogleForm'
+export * from './visitGoogleForm'
+// Pages
+export * from './HomePage'
+export * from './AboutUsPage'
+export * from './NewsPage'
+

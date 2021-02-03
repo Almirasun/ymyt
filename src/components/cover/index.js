@@ -15,9 +15,12 @@ export const Cover = () => {
             <div className="container">
               <div className="h1">{strings[lang]["cover-title"]}</div>
               <div className="moto">{strings[lang]["cover-moto"]}</div>
-              <button className="btn btn-success mt-4 mb-4 contact-button">
-                {strings[lang]["cover-contact-us-button"]}
-              </button>
+              <a href="#footer">
+                <button className="btn btn-success mt-4 mb-4 contact-button">
+                  {strings[lang]["cover-contact-us-button"]}
+                </button>
+              </a>
+
               <div>{strings[lang]["cover-follow-us"]}</div>
             </div>
           </div>

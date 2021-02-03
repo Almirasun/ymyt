@@ -8,13 +8,13 @@ export const AboutUs = () => {
   const lang = ReactRedux.useSelector((state) => state.lang);
 
   return (
-    <div id="aboutUs">
+    <div id="aboutUs" className="container-fluid">
       <div className="container-fluid">
         <div className="row">
           <div className="col d-flex flex-column justify-content-center align-items-start bg-title">
             <div className="container">
               <div className="h1">{strings[lang]["about-us-title"]}</div>
-              <div style={{marginTop: 200}}>{strings[lang]["cover-follow-us"]}</div>
+              <div>{strings[lang]["cover-follow-us"]}</div>
             </div>
           </div>
           <div className="col-lg-7 bg-image">
@@ -73,7 +73,6 @@ export const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Components.Footer />
     </div>
   );
 };

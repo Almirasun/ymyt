@@ -107,6 +107,7 @@
 
 @media (max-width: 1200px) {
   #aboutUs {
+    margin-top: auto;
     text-align: center;
   }
 

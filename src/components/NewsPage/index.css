@@ -1,0 +1,60 @@
+#newsPage {
+  margin-top: -100.7px;
+  padding: 0;
+}
+
+#newsPage .bg-image {
+  height: 80vh;
+  background-image: url(./images/img-aboutus.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0;
+}
+
+#newsPage .bg-title {
+  height: 80vh;
+  margin-left: 5%;
+}
+
+#newsPage .bg-image > .arrow {
+  width: 0;
+  height: 0;
+  border-top: 40vh solid transparent;
+  border-bottom: 40vh solid transparent;
+  border-left: 100px solid white;
+}
+
+
+#newsPage .h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+#newsPage .contact-button {
+  margin-bottom: 70px;
+  background-color: #14ad02;
+  border-radius: 0;
+}
+
+#newsPage .row {
+  margin-bottom: 100px;
+}
+
+
+@media (max-width: 1200px) {
+  #newsPage {
+    margin-top: auto;
+    text-align: center;
+  }
+
+  #newsPage .bg-image > .arrow {
+    display: none;
+  }
+
+  #newsPage .row {
+    margin-bottom: 10px;
+  }
+
+}

@@ -1,5 +1,7 @@
 import React from "react";
 import * as ReactRedux from "react-redux";
+import { Link } from 'react-router-dom'
+
 import "./index.css";
 
 export const OperatingMode = () => {
@@ -13,7 +15,7 @@ export const OperatingMode = () => {
           <div className="col-lg-6 container">
             <div className="visit-title">{strings[lang]["visit-title"]}</div>
             <div className="visit-info">{strings[lang]["visit-info"]}</div>
-            <button className="btn btn-success mt-4 mb-4">{strings[lang]["visit-button"]}</button>
+            <Link to="/visitForm"><button className="btn btn-success mt-4 mb-4">{strings[lang]["visit-button"]}</button></Link>
           </div>
           <div className="col-lg-6 flex-column justify-content-center">
             <div className="row">

@@ -10,7 +10,7 @@ export const WhatWeDo = () => {
   return (
     <div id="whatWeDo" className="container" style={{ marginTop: 50 }}>
       <div className="infos">
-        <h3 className="info-1 text-center">
+        <h3 className="title text-center">
           {strings[lang]["what-we-do-title"]}
         </h3>
         <p className="info-2 text-center">{strings[lang]["what-we-do-info"]}</p>

@@ -14,7 +14,12 @@ export const AboutUs = () => {
           <div className="col d-flex flex-column justify-content-center align-items-start bg-title">
             <div className="container">
               <div className="h1">{strings[lang]["about-us-title"]}</div>
-              <div>{strings[lang]["cover-follow-us"]}</div>
+            </div>
+            <div className="d-flex align-items-center">
+              <div style={{marginRight: 15, marginTop: 25}}>{strings[lang]["cover-follow-us"]}</div>
+              <div style={{marginTop: 25}}>
+                <Components.SocialIcons />
+              </div>
             </div>
           </div>
           <div className="col-lg-7 bg-image">
@@ -32,7 +37,7 @@ export const AboutUs = () => {
         </div>
       </div>
 
-      <div id="ourTeam" className="container">
+      {/* <div id="ourTeam" className="container">
         <div className="infos">
           <h3 className="info-1 text-center">{strings[lang]["our-team"]}</h3>
         </div>
@@ -72,7 +77,7 @@ export const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

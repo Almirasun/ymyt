@@ -5,7 +5,7 @@ export const DonateGoogleForm = () => {
   return (
     <div className="container-fluid App">
       <Componet.Navbar />
-      <div className="container google-form">
+      <div className="google-form">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSdt_GJcaBqtiS8pZlRLrQy2ncFxR_J5XLS9KPi-yzwPbK9X5w/viewform?embedded=true"
           width="640"

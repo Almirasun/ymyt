@@ -20,15 +20,14 @@ export const Cover = () => {
                   {strings[lang]["cover-contact-us-button"]}
                 </button>
               </a>
-
-              <div>{strings[lang]["cover-follow-us"]}</div>
-              <button className="btn btn-success mt-4 mb-4 contact-button">
-                {strings[lang]["cover-contact-us-button"]}
-              </button>
               <div className="d-flex align-items-center">
-                <div style={{ marginRight: 15 }}>{strings[lang]["cover-follow-us"]}</div>
-                <Components.SocialIcons />
-              </div>              
+                <div style={{marginRight: 15, marginTop: 25}}>
+                  {strings[lang]["cover-follow-us"]}
+                </div>
+                <div style={{marginTop: 25}}>
+                  <Components.SocialIcons />
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-lg-7 bg-image">

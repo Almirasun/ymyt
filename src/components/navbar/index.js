@@ -45,11 +45,11 @@ export const Navbar = () => {
               </Link>
             </li>
             <hr />
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link nav-menu" href="#projects">
                 {strings[lang]["navbar-link-projects"]}
-              </Link>
-            </li>
+              </a>
+            </li> */}
             <li className="nav-item">
               <Link to="/about-us">
                 <a className="nav-link nav-menu" href="/">

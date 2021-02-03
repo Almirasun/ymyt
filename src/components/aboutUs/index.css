@@ -1,5 +1,6 @@
 #aboutUs {
   margin-top: -100.7px;
+  padding: 0;
 }
 
 #aboutUs .bg-image {
@@ -89,9 +90,7 @@
   background-image: url(./images/icon-12.png);
 }
 
-/* .container > .activities .activities__title {
-      font-style: bold;
-  } */
+
 
 #aboutUs .row {
   margin-bottom: 100px;

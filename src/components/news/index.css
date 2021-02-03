@@ -2,6 +2,10 @@
   margin-top: 70px;
 }
 
+#news a {
+  color: #14ad02;
+}
+
 .last-card > a {
   color: #14ad02;
 }
@@ -12,12 +16,11 @@
   line-height: normal;
 }
 
-#news a {
-  color: #14ad02;
-}
+
 
 .card-body {
   background-color: #14ad02;
+  color: whitesmoke;
 }
 
 .card-body > .btn {

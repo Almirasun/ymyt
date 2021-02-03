@@ -17,7 +17,7 @@ const en = {
 
   //   Cover
   "cover-title": "Umut bulagy",
-  "cover-moto": "Support for mother and child",
+  "cover-moto": "Mother and child aid",
   "cover-contact-us-button": "Contact us",
   "cover-follow-us": "Follow us:",
 

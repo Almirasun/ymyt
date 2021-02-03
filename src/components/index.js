@@ -22,5 +22,3 @@ export * from './HomePage'
 export * from './AboutUsPage'
 export * from './NewsPage'
 
-
-export * from './pages/aboutUs'

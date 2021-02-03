@@ -11,36 +11,6 @@
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   }
   
-  
-  /* #donate > .frame-first {
-    background-color: #F4F4F4;
-    height: 400px;
-  } */
-
-  /* #donate > .frame-first .bg-image-1 {
-    background-image: url(./images/image-1.JPG);
-  }
-
-  #donate > .frame-second {
-    background-color: #FBFBFB;
-    height: 400px;
-  }
-
-  #donate > .frame-second .bg-image-2 {
-    background-image: url(./images/image-2.JPG);
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  }
-  
-  #donate > .frame-third {
-    background-color: #F4F4F4;
-    height: 400px;
-  }
-
-  #donate > .frame-third .bg-image-3 {
-    background-image: url(./images/image-3.jpg);
-  } */
-
-
 
   /* new */
   #donate .donate-info {

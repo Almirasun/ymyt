@@ -33,12 +33,18 @@
     background-image: url(./images/icon-7.png);
   }
 
-  /* .container > .activities .activities__title {
+  .container > .activities .activities__title {
       font-style: bold;
-  } */
+      font-weight: 500;
+  }
 
   #whatWeDo .info-2 {
-    font-weight: 400;
+    font-weight: 300;
+    padding: 0 14rem;
+  }
+
+  #whatWeDo .title {
+    margin-bottom: 40px;
   }
 
   #whatWeDo .activities__description {
@@ -46,10 +52,7 @@
     line-height: normal;
   }
 
-  #whatWeDo .text-center {
-    margin-bottom: 0;
-    
-  }
+
 
   @media (max-width: 1200px) {
     #whatWeDo  {
@@ -58,6 +61,11 @@
 
     #whatWeDo .activities__icon {
       margin-top: 25px;
+    }
+
+    #whatWeDo .info-2 {
+      font-weight: 400;
+      padding: 0 1rem;
     }
   }
 

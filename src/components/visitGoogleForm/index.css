@@ -5,3 +5,9 @@
 .google-form > iframe {
     margin-top: 70px;
 }
+
+@media (max-width: 600px) {
+    iframe {
+        width: min-content;
+    }
+}

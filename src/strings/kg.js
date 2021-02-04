@@ -110,7 +110,7 @@ const kg = {
   "visit-title":"Запланировать визит",
   "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
   "visit-button":"Запланировать",
-  "work": "Иштөө режими",
+  "work": "Иштөө убактысы",
   "work-days": "Дүйшөмбү-Жума:",
   "work-time": "09:00 - 18:00",
   "work-break": "Тыныгуу:",

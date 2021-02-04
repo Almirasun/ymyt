@@ -5,7 +5,7 @@ import './index.scss';
 export const SocialIcons = () => {
     return (
         <div className="social-icons">            
-            <a className="icon facebook" href="https://m.facebook.com/umutbulagy.org/ ">
+            <a className="icon facebook" href="https://facebook.com/umutbulagy.org/ ">
               <i className="fab fa-facebook-f" />
             </a>
             <a className="icon twitter" href="https://twitter.com/ubulagy?s=21">

@@ -19,5 +19,12 @@
         margin-bottom: 20px;
     }
 
+    #newsData img {
+        margin-bottom: 25px;
+    }
+
+    #newsData .publicationDate {
+        margin-top: 75px;
+    }
 }
 

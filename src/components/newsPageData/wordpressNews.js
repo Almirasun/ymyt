@@ -37,7 +37,7 @@ export class WordpressNews extends Component {
       <div id="newsData" className="container">
         <div className="row">
           <div className="col-lg-4 news-img">
-            <p>{moment(date).format("LLLL")}</p>
+            <p className="publicationDate">{moment(date).format("LLLL")}</p>
             <img src={imgUrl} alt={title.rendered} />
           </div>
           <div className="col-lg-8">

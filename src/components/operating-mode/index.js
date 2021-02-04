@@ -14,7 +14,7 @@ export const OperatingMode = () => {
         <div className="row">
           <div className="col-lg-6 container">
             <div className="visit-title">{strings[lang]["visit-title"]}</div>
-            <div className="visit-info">{strings[lang]["visit-info"]}</div>
+            {/* <div className="visit-info">{strings[lang]["visit-info"]}</div> */}
             <Link to="/visitForm"><button className="btn btn-success mt-4 mb-4">{strings[lang]["visit-button"]}</button></Link>
           </div>
           <div className="col-lg-6 flex-column justify-content-center">

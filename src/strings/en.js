@@ -10,10 +10,6 @@ const en = {
   "navbar-lang-kg": "KG",
   "navbar-lang-en": "EN",
 
-  // Modal
-  "modal-title": "Donate",
-  "modal-close-btn": "Close",
-  "modal-info": "ЭЛСОМ 0777111222",
 
   //   Cover
   "cover-title": "Umut bulagy",
@@ -30,10 +26,10 @@ const en = {
   "who-we-are-author": "- A. Zhaparova",
 
   // About Us
-  "about-us-title": "О нас",
+  "about-us-title": "About us",
 
-  // Out team
-  "our-team": "Наша команда",
+  // Our team
+  "our-team": "Our team",
   "our-team-management": "Руководство: А. Жапарова",
   "our-team-project": "Проектная деятельность",
   "our-team-accounting": "Бухгалтерия",
@@ -41,7 +37,6 @@ const en = {
   "our-team-smm": "СММ",
 
   // Mission
-  "about-us-title": "About us",
   "mission-title":"Our mission",
   "mission-info":"Supporting the creation of essential conditions for the health and comprehensive development of single mothers, orphans and other vulnerable groups in Kyrgyzstan to achieve social justice and impartiality in the society.",
   
@@ -104,31 +99,31 @@ const en = {
   "join-button": "Join",
 
   // operating mode
-  "visit-title":"Запланировать визит",
+  "visit-title":"Schedule a visit",
   "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-  "visit-button":"Запланировать",
-  "work": "Operating hours",
-  "work-days": "M-F:",
-  "work-time": "09:00 - 18:00",
-  "work-break": "Break:",
-  "work-break-time": "13:00 - 14:00",
-  "work-day-off": "S-S:",
-  "work-saturday": "Saturday:",
-  "work-saturday-time": "09:00 - 16:00",
-  "work-sunday": "Sunday:",
-  "work-sunday-time": "Days off",
-
-  // footer
-  "footer-links": "Быстрые ссылки",
-  "footer-news": "Новости",
-  "footer-projects": "Проекты",
-  "footer-about-us": "О нас",
-  "footer-adress": "Адрес",
-  "footer-city": "720031, Кыргызстан, г. Бишкек",
-  "footer-street": "ул. Ибраимова 100, 6 этаж",
-  "footer-contacts": "Контактные данные",
-  "footer-phone": "+996(501)345-777",
-  "footer-email": "ubulagy@gmail.com ",
+  "visit-button":"Schedule",
+   "work":"Working hours",
+   "work-days":"Mon-Fri:",
+   "work-time":"09:00 - 18:00",
+   "work-break":"Break:",
+   "work-break-time":"13:00 - 14:00",
+   "work-day-off":"Sat-Sun:",
+   "work-saturday":"Saturday:",
+   "work-saturday-time":"09:00 - 16:00",
+   "work-sunday":"Sunday:",
+   "work-sunday-time":"Days off",
+ 
+   // footer
+   "footer-links":"Links",
+   "footer-news":"News",
+   "footer-projects":"Projects",
+   "footer-about-us":"About us",
+   "footer-adress":"Address",
+   "footer-city":"720031, Kyrgyzstan, Bishkek",
+   "footer-street":"100 Ibraimova Street, 6th floor",
+   "footer-contacts":"Contacts",
+   "footer-phone":"+996(501)345-777",
+   "footer-email":"ubulagy@gmail.com ",
 
   // history
   history: "История",
@@ -141,7 +136,7 @@ const en = {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
 
   // news
-  "news-link": "All our news ⇢",
+  "news-link": "All our news >",
   "news-title":"News",
 };
 

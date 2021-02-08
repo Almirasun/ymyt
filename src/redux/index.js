@@ -23,6 +23,3 @@ export const SetLanguageAction = (lang = 'en' | 'ru' | 'kg') => ({
   lang: lang,
 });
 
-// store.dispatch(SetLanguageAction('en'));
-// store.dispatch(SetLanguageAction('ru'));
-// store.dispatch(SetLanguageAction('kg'));

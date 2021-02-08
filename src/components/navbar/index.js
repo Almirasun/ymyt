@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "./logo.png";
+import logoKG from "./logo-kg.png";
+import logoEN from "./logo-en.png";
 import * as ReactRedux from "react-redux";
 import * as AppRedux from "../../redux";
 import {Link} from "react-router-dom";
@@ -18,11 +19,18 @@ export const Navbar = () => {
     dispatch(AppRedux.SetLanguageAction(lang));
   };
 
+  let imgSource;
+  if(lang == "en") {
+    imgSource = logoEN
+  } else {
+    imgSource = logoKG
+  }
+
   return (
     <div>
       <div id="navbar" className="container-fluid navbar navbar-expand-xl navbar-light">
         <a className="navbar-brand">
-          <img src={logo} width={120} alt="Logo" />
+          <img src={imgSource} width={120} alt="Logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -91,14 +99,5 @@ export const Navbar = () => {
       </div>
     </div>
     
-  
-
-  // <Router>
-  //   <Switch>
-  //     <Route exact path="/" component={AboutUs} />
-  //     <Route exact path="/" component={News} />
-  //   </Switch>
-  // </Router>
-
   );
 };

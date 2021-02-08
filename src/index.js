@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import * as AppRedux from "./redux";
 import * as ReactRedux from "react-redux";
 import * as Components from "./components";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 import "./index.scss";
 
 function App() {

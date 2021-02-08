@@ -6,6 +6,7 @@
 }
 
 #operating-mode button {
+  width: 200px;
   background-color: #14ad02;
   border-radius: 0;
 }

@@ -4,11 +4,12 @@ import * as AppRedux from "./redux";
 import * as ReactRedux from "react-redux";
 import * as Components from "./components";
 import {BrowserRouter, Route} from "react-router-dom";
+import { createBrowserHistory } from 'history'; // I guess, from react-router
 import "./index.scss";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter onUpdate={() => window.scrollTo(0, 0)} history={createBrowserHistory()}>
         <Route exact path="/" component={Components.HomePage} />
         <Route path="/about-us" component={Components.AboutUsPage} />
         <Route path="/donateForm" component={Components.DonateGoogleForm} />

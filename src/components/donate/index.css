@@ -54,6 +54,7 @@
   }
 
   #donate button {
+    width: 200px;
     margin-bottom: 70px;
     background-color: #14ad02;
     border-radius: 0;

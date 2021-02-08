@@ -27,7 +27,7 @@ const kg = {
   "who-we-are-info1":
     'Кыргыз Республикасынын биринчи айымы Айгүл Жапарованын демилгеси менен түзүлгөн "Үмүт булагы" коомдук фонду бүткүл өлкө боюнча иш жүргүзөт.',
   "who-we-are-info2":
-    'Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
+    '"Биз биринчи кезекте балдарга жана энелерге жардам берүүгө умтулабыз. Алардын жашоо сапаттын жакшыртуу, коргоо жана потенциалын өнүктүрүү максатын көздөйбүз. Үмүт булагы – эне менен балага тирек."',
   "who-we-are-author": "- А. Жапарова",
 
   // About Us
@@ -96,7 +96,7 @@ const kg = {
   "send-request": "Кеңеш алуу учун кайрылуу",
   "send-request-info":
     '"Үмүт Булагы" Коомдук фонду өлкө боюнча жалгыз бой энелерге, жетим балдарга жана калктын башка аярлуу катмарына материалдык жана башка түрүндө жардам берет.',
-  "send-request-button": "Отправить",
+  "send-request-button": "Жөнөтүү",
   "send-request-response":
     "Кайрылууңуз үчүн рахмат. Биз мүмкүн болушунча эртерээк карап чыгып, сиз менен байланышабыз.",
 
@@ -104,12 +104,12 @@ const kg = {
   join: '"Үмүт булагына" кошулуу',
   "join-info":
     "Кыргызстандагы аялдар жана балдар, башка калктын аярлуу топтору өзгөчө колдоого муктаж. Умут булагынын волонтеру же өнөктөшү болуп, биздин коомго жардам берүү демилгесин колдоңуз. ",
-  "join-button": "Присоединиться",
+  "join-button": "Кошулуу",
 
   // operating mode
-  "visit-title":"Запланировать визит",
+  "visit-title":"Кабылдамага жазылуу",
   "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-  "visit-button":"Запланировать",
+  "visit-button":"Жазылуу",
   "work": "Иштөө убактысы",
   "work-days": "Дүйшөмбү-Жума:",
   "work-time": "09:00 - 18:00",
@@ -127,9 +127,9 @@ const kg = {
   "footer-projects": "Долбоорлор",
   "footer-about-us": "Биз жөнүндө",
   "footer-adress": "Дарек",
-  "footer-city": "720031, Кыргызстан, Бишкек ш.",
+  "footer-city": "720021, Кыргызстан, Бишкек ш.",
   "footer-street": "Ибраимова 100 көчөсү, 6 этаж",
-  "footer-contacts": "Байланыш маалыматар",
+  "footer-contacts": "Байланыш маалыматы",
   "footer-phone": "+996(501)345-777",
   "footer-email": "ubulagy@gmail.com ",
 
@@ -144,7 +144,8 @@ const kg = {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry.d psum is simply dummy text of the printing and typesetting industry.",
 
   // news
-  "news-link": "Все новости нашего фонда >",
+
+  "news-link": "Биздин фонддун бардык жаңылыктары ⇢",
   "news-title":"Жаңылыктыр",
 };
 

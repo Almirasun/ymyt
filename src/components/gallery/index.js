@@ -1,8 +1,8 @@
 import React from "react";
 import * as ReactRedux from "react-redux";
-import photo from "./dety.jpg";
+import images from './images'
 import Carousel from "react-elastic-carousel";
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import Item from "./item";
 import "./index.scss";
 
@@ -24,29 +24,38 @@ export const Gallery = () => {
       <h3 className="title text-left">{strings[lang]["gallery-title"]}</h3>
 
       <Carousel breakPoints={breakPoints}>
-        <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+      <Item>
+          <img src={images.img1} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img2} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img3} alt="image-gallery" width="260px" height="180px" />
+        </Item>        
+        <Item>
+          <img src={images.img4} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img5} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img6} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img7} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img8} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item>
-          <img src={photo} alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img9} alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img10} alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img11} alt="image-gallery" width="260px" height="180px" />
         </Item>
       </Carousel>
     </div>

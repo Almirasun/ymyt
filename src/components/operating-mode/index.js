@@ -26,11 +26,11 @@ export const OperatingMode = () => {
             <div className="row">
               <div className="col container days">
                 <p className="text-center top">{strings[lang]["work-days"]}</p>
-                <p className="text-center bottom">{strings[lang]["work-day-off"]}</p>
+                {/* <p className="text-center bottom">{strings[lang]["work-day-off"]}</p> */}
               </div>
               <div className="col container time">
                 <p className="text-center top">{strings[lang]["work-time"]}</p>
-                <p className="text-center bottom">{strings[lang]["work-sunday-time"]}</p>
+                {/* <p className="text-center bottom">{strings[lang]["work-sunday-time"]}</p> */}
               </div>
             </div>
           </div>

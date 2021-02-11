@@ -1,8 +1,8 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import axios from "axios";
 import * as ReactRedux from "react-redux";
 import WordpressNews from "./wordpressNews";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 export class News extends Component {
@@ -24,7 +24,7 @@ export class News extends Component {
   }
 
   render() {
-    const {news} = this.state;
+    const { news } = this.state;
     const a = news.slice();
     return (
       <div id="news" className="container">
@@ -48,10 +48,8 @@ export class News extends Component {
             {news.slice(3, 4).map((e) => (
               <WordpressNews key={e.id} news={e} />
             ))}
-            <Link to="/newsPage">
-              <a className="text" href="#">
-                {"Все новости нашего фонда >"}
-              </a>
+            <Link to="/newsPage" className='text'>
+              {"Все новости нашего фонда >"}
             </Link>
           </div>
         </div>

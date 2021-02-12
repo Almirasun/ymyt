@@ -14,7 +14,7 @@ const appReducer = (state = initialState, action) => {
     const lang = action.lang;
     
     Cookies.set('YB_LANG', lang);
-
+    
     return { ...state, lang: lang };
   }
   return { ...state };

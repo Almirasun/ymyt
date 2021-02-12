@@ -15,14 +15,14 @@ function App({ history }) {
 
   return (
     <>
-    <Route exact path="/" component={Components.HomePage} />
-    <Route path="/about-us" component={Components.AboutUsPage} />
-    <Route path="/donateForm" component={Components.DonateGoogleForm} />
-    <Route path="/requestForm" component={Components.RequestGoogleForm} />
-    <Route path="/joinForm" component={Components.JoinGoogleForm} />
-    <Route path="/visitForm" component={Components.VisitGoogleForm} />
-    <Route path="/newsPage" component={Components.NewsPage} />
-  </>
+      <Route exact path="/" component={Components.HomePage} />
+      <Route path="/about-us" component={Components.AboutUsPage} />
+      <Route path="/donateForm" component={Components.DonateGoogleForm} />
+      <Route path="/requestForm" component={Components.RequestGoogleForm} />
+      <Route path="/joinForm" component={Components.JoinGoogleForm} />
+      <Route path="/visitForm" component={Components.VisitGoogleForm} />
+      <Route path="/newsPage" component={Components.NewsPage} />
+    </>
   );
 }
 

@@ -3,7 +3,7 @@ import logoKG from "./logo-kg.png";
 import logoEN from "./logo-en.png";
 import * as ReactRedux from "react-redux";
 import * as AppRedux from "../../redux";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
@@ -20,7 +20,7 @@ export const Navbar = () => {
   };
 
   let imgSource;
-  if(lang == "en") {
+  if (lang == "en") {
     imgSource = logoEN
   } else {
     imgSource = logoKG
@@ -46,10 +46,8 @@ export const Navbar = () => {
         <div id="burger" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/">
-                <a className="nav-link nav-menu" href="/">
-                  {strings[lang]["navbar-link-main"]}
-                </a>
+              <Link to="/" className='nav-link nav-menu'>
+                {strings[lang]["navbar-link-main"]}
               </Link>
             </li>
             <hr />
@@ -59,10 +57,8 @@ export const Navbar = () => {
               </a>
             </li> */}
             <li className="nav-item">
-              <Link to="/about-us">
-                <a className="nav-link nav-menu" href="/">
-                  {strings[lang]["navbar-link-about-us"]}
-                </a>
+              <Link to="/about-us" className='nav-link nav-menu'>
+                {strings[lang]["navbar-link-about-us"]}
               </Link>
             </li>
             <li className="nav-item">

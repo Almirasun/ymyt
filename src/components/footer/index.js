@@ -2,7 +2,7 @@ import React from "react";
 import * as ReactRedux from "react-redux";
 import * as Components from "../../components";
 import logo from "./logo.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 export const Footer = () => {
@@ -23,10 +23,8 @@ export const Footer = () => {
 
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/newsPage">
-                    <a href="#!" className="text-dark">
-                      {strings[lang]["footer-news"]}
-                    </a>
+                  <Link to="/newsPage" className='text-dark'>
+                    {strings[lang]["footer-news"]}
                   </Link>
                 </li>
                 <li>
@@ -80,10 +78,10 @@ export const Footer = () => {
 
         <div className="text-center p-3">
           <div className="d-flex justify-content-end">
-            <div style={{marginRight: 15, marginTop: 25}}>
+            <div style={{ marginRight: 15, marginTop: 25 }}>
               {strings[lang]["cover-follow-us"]}
             </div>
-            <div style={{marginTop: 25}}>
+            <div style={{ marginTop: 25 }}>
               <Components.SocialIcons />
             </div>
           </div>

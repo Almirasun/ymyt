@@ -39,3 +39,18 @@ button.rec-arrow:focus:enabled {
 div.rec-pagination {
   display: none;
 }
+
+#gallery .photo {
+  transition: transform .2s;
+}
+
+#gallery .photo:hover {
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4); 
+}
+
+// newsLink
+#gallery p {
+  color: #14ad02;
+}

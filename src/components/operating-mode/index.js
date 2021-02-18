@@ -15,7 +15,9 @@ export const OperatingMode = () => {
           <div className="col-lg-6 container">
             <div className="visit-title">{strings[lang]["visit-title"]}</div>
             {/* <div className="visit-info">{strings[lang]["visit-info"]}</div> */}
-            <Link to="/visitForm"><button className="btn btn-success mt-4 mb-4">{strings[lang]["visit-button"]}</button></Link>
+              <Link to="/visitForm">
+                <button className="btn btn-success mt-4 mb-4">{strings[lang]["visit-button"]}</button>
+              </Link>
           </div>
           <div className="col-lg-6 flex-column justify-content-center">
             <div className="row">
@@ -25,11 +27,11 @@ export const OperatingMode = () => {
             </div>
             <div className="row">
               <div className="col container days">
-                <p className="text-center top">{strings[lang]["work-days"]}</p>
+                <p className="text-right top">{strings[lang]["work-days"]}</p>
                 {/* <p className="text-center bottom">{strings[lang]["work-day-off"]}</p> */}
               </div>
               <div className="col container time">
-                <p className="text-center top">{strings[lang]["work-time"]}</p>
+                <p className="text-left top">{strings[lang]["work-time"]}</p>
                 {/* <p className="text-center bottom">{strings[lang]["work-sunday-time"]}</p> */}
               </div>
             </div>

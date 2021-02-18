@@ -102,7 +102,7 @@ const en = {
 
   "visit-title":"Plan a visit",
   "visit-info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-  "visit-button":"Schedule",
+  "visit-button":"Plan",
   "work": "Business hours",
   "work-days": "Mon-Fri:",
   "work-time": "9 a.m. - 6 p.m.",
@@ -127,7 +127,7 @@ const en = {
   "footer-email": "ubulagy@gmail.com ",
 
   // history
-  history: "История",
+  history: "History",
   "history-info":
     'Общественный фонд "Умут булагы" был основан в 2020 году инициативой первой леди Кыргызской Республики Айгуль Жапаровой. Фонд получил официальное название – Умут булагы, в честь молодого парня по имени Умут, погибшего на мирном митинге в октябре 2020 г. в Кыргызстане. Наш фонд символизирует источник надежды и веру личности в себя, в страну и в лучшее будущее.',
 

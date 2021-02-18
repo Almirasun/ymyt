@@ -9,6 +9,12 @@ import img8 from "./8.JPG";
 import img9 from "./9.JPG";
 import img10 from "./10.JPG";
 import img11 from "./11.JPG";
+import img12 from "./12.JPG";
+import img13 from "./13.JPG";
+import img14 from "./14.JPG";
+import img15 from "./15.JPG";
+import img16 from "./16.JPG";
+import img17 from "./17.JPG";
 
 const images = {
   img1,
@@ -22,6 +28,12 @@ const images = {
   img9,
   img10,
   img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
 };
 
 export default images;

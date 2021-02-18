@@ -60,6 +60,24 @@ export const Gallery = () => {
         <Item className="photo">
           <img src={images.img11} alt="image-gallery" width="260px" height="180px" />
         </Item>
+        <Item>
+          <img src={images.img12} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img13} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img14} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img15} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img16} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item>
+          <img src={images.img17} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+        </Item>
       </Carousel>
     </div>
   );

@@ -22,7 +22,7 @@ export const Donate = () => {
                 </button>
               </Link>
             </div>
-            <div className="col-lg-6 img-area bg-image" />
+            <div className="col-lg-6 img-area bg-image" title="Photo by Vlad Ushakov" />
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ export const Donate = () => {
       <div className="new-second new-elements">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 img-area bg-image-2" />
+            <div className="col-lg-6 img-area bg-image-2" title="Photo by Vlad Ushakov" />
             <div className="col-lg-6  bg-title">
               <div className="donate-title">{strings[lang]["send-request"]}</div>
               <div className="donate-info">{strings[lang]["send-request-info"]}</div>
@@ -54,7 +54,7 @@ export const Donate = () => {
                <button className="btn btn-success mt-4 mb-4">{strings[lang]["join-button"]}</button>
               </Link>
             </div>
-            <div className="col-lg-6 img-area bg-image-3" />
+            <div className="col-lg-6 img-area bg-image-3" title="Photo by Vlad Ushakov" />
           </div>
         </div>
       </div>

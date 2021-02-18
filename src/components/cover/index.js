@@ -30,7 +30,7 @@ export const Cover = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 bg-image">
+          <div className="col-lg-7 bg-image" title="Photo by Vlad Ushakov">
             <div className="arrow" />
           </div>
         </div>

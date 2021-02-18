@@ -87,7 +87,11 @@ export const Footer = () => {
           </div>
           <a className="text-dark" href="#">
             {" "}
-            © 2020 Copyright: Umut bulagy
+            © 2021 Copyright: Umut bulagy
+          </a>
+          <a className="text-dark" href="https://fortylines.io/">
+            {" "}
+            | This web-site is made by Fortylines.io
           </a>
         </div>
       </footer>

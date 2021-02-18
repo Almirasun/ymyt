@@ -24,7 +24,7 @@
   }
 
   #donate .bg-image {
-    height: 50vh;
+    /* height: 50vh; */
     background-image: url(./images/image-1.JPG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@
   }
 
   #donate .bg-image-3 {
-    height: 50vh;
+    /* height: 50vh; */
     background-image: url(./images/image-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@
   }
 
   #donate .bg-image-2 {
-    height: 50vh;
+    /* height: 50vh; */
     background-image: url(./images/image-2.JPG);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     background-repeat: no-repeat;

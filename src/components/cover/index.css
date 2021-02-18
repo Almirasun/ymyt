@@ -43,7 +43,7 @@
   border-radius: 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 990px) {
   #app-cover {
     margin-top: auto;
     text-align: center;

@@ -21,6 +21,7 @@
   #donate .donate-title {
     font-weight: 700;
     font-size: x-large;
+    margin-bottom: 50px;
   }
 
   #donate .bg-image {
@@ -65,16 +66,25 @@
     margin-bottom: 70px;
   }
   
-
-  @media (max-width: 1200px) {
+  @media (max-width: 990px) {
 
     #donate {
-      margin-top: auto;
+      margin-right: none;
+      margin-top: 100px;
       text-align: center;
     }
-  
+    
+    #donate .text-donate__second {
+      order: 1;
+    }
+
+    #donate .img-donate__second {
+      order: 2;
+    }
+
     #donate .img-area{
-      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 50% 25%);
+      height: 250px;
     } 
   
   }

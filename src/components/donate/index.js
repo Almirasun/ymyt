@@ -17,9 +17,11 @@ export const Donate = () => {
               <div className="donate-title">{strings[lang]["donate-now"]}</div>
               <div className="donate-info">{strings[lang]["donate-now-info"]}</div>
               <Link to="/donateForm">
+              <div style={{marginBottom: "-80px"}}>
                 <button className="btn btn-success mt-4 mb-4">
                   {strings[lang]["donate-button"]}
                 </button>
+              </div>
               </Link>
             </div>
             <div className="col-lg-6 img-area bg-image" title="Photo by Vlad Ushakov" />
@@ -30,14 +32,16 @@ export const Donate = () => {
       <div className="new-second new-elements">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 img-area bg-image-2" title="Photo by Vlad Ushakov" />
-            <div className="col-lg-6  bg-title">
+            <div className="col-lg-6 img-area bg-image-2 img-donate__second" title="Photo by Vlad Ushakov" />
+            <div className="col-lg-6  bg-title text-donate__second">
               <div className="donate-title">{strings[lang]["send-request"]}</div>
               <div className="donate-info">{strings[lang]["send-request-info"]}</div>
               <Link to="/requestForm">
+              <div style={{marginBottom: "-80px"}}>
                 <button className="btn btn-success mt-4 mb-4">
                   {strings[lang]["send-request-button"]}
                 </button>
+              </div>
               </Link>
             </div>
           </div>
@@ -51,7 +55,11 @@ export const Donate = () => {
               <div className="donate-title">{strings[lang]["join"]}</div>
               <div className="donate-info">{strings[lang]["join-info"]}</div>
               <Link to="/joinForm">
-               <button className="btn btn-success mt-4 mb-4">{strings[lang]["join-button"]}</button>
+              <div style={{marginBottom: "-80px"}}>
+                <button className="btn btn-success mt-4 mb-4">
+                  {strings[lang]["join-button"]}
+                </button>
+              </div>
               </Link>
             </div>
             <div className="col-lg-6 img-area bg-image-3" title="Photo by Vlad Ushakov" />

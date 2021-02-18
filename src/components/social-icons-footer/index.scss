@@ -1,0 +1,27 @@
+/*стили иконок соц.сетей*/
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+  
+    & > .icon-foo {      
+      width: 25px;
+      height: 25px;
+      border-radius: 16px;
+      color: white;
+      background-color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;     
+  
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+  
+      &:hover {
+        color: white;
+        background-color: #000;
+      }
+    }
+  }
+  

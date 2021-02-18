@@ -1,4 +1,5 @@
 export * from './social-icons'
+export * from './social-icons-footer'
 export * from './whoWeAre'
 export * from './cover'
 export * from './whatWeDo'

@@ -78,18 +78,18 @@ export const Footer = () => {
 
         <div className="text-center p-3">
           <div className="d-flex justify-content-end">
-            <div style={{ marginRight: 15, marginTop: 25 }}>
+            <div style={{ marginRight: 15, marginTop: 25, color: "grey" }}>
               {strings[lang]["cover-follow-us"]}
             </div>
             <div style={{ marginTop: 25 }}>
-              <Components.SocialIcons />
+              <Components.SocialIconsFooter />
             </div>
           </div>
-          <a className="text-dark" href="#">
+          <a className="text-dark" style={{ color: "grey" }} href="#">
             {" "}
             © 2021 Copyright: Umut bulagy
           </a>
-          <a className="text-dark" href="https://fortylines.io/">
+          <a className="text-dark" style={{ color: "grey" }} href="https://fortylines.io/" target='_blank' rel='noreferrer'>
             {" "}
             | This web-site is made by Fortylines.io
           </a>

@@ -20,7 +20,7 @@ export const Cover = () => {
                   {strings[lang]["cover-contact-us-button"]}
                 </button>
               </a>
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center social-icons__main">
                 <div style={{marginRight: 15, marginTop: 25}}>
                   {strings[lang]["cover-follow-us"]}
                 </div>
@@ -30,9 +30,7 @@ export const Cover = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 bg-image" title="Photo by Vlad Ushakov">
-            <div className="arrow" />
-          </div>
+          <div className="col-lg-7 bg-image" title="Photo by Vlad Ushakov" />            
         </div>
       </div>
     </div>

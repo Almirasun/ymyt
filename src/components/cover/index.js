@@ -30,7 +30,9 @@ export const Cover = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 bg-image" title="Photo by Vlad Ushakov" />            
+          <div className="col-lg-7 bg-image" title="Photo by Vlad Ushakov">
+            <p>{strings[lang]["watermark"]}</p>
+          </div>            
         </div>
       </div>
     </div>

@@ -54,7 +54,7 @@ const ru = {
   "what-we-do-health-care": "Здравоохранение",
   "what-we-do-health-care-info": "Забота и защита здоровья",
   "what-we-do-culture": "Культура",
-  "what-we-do-culture-info": "Поддержка национальной культуры и наследия",
+  "what-we-do-culture-info": "Поддержка культурного разнообразия и наследия",
   "what-we-do-eco": "Экология",
   "what-we-do-eco-info": "Сохранение и поддержание экосистем",
   "what-we-do-science": "Наука",
@@ -144,7 +144,10 @@ const ru = {
 
   // news
   "news-link": "Все новости нашего фонда >",
-  "news-title":"Новости"
+  "news-title":"Новости",
+
+  // watermark
+  "watermark":"Фото: Влад Ушаков",
 
 
 };

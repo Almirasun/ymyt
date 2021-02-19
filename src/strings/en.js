@@ -139,6 +139,11 @@ const en = {
   // news
   "news-link": "All our news >",
   "news-title":"News",
+
+
+   // watermark
+   "watermark":"Photo by: Vlad Ushakov"
+
 };
 
 export default en;

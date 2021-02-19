@@ -147,6 +147,10 @@ const kg = {
 
   "news-link": "Биздин фонддун бардык жаңылыктары ⇢",
   "news-title":"Жаңылыктыр",
+
+   // watermark
+   "watermark":"Фото: Влад Ушаков",
+
 };
 
 export default kg;

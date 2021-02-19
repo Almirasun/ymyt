@@ -44,6 +44,18 @@
   border-radius: 0;
 }
 
+/* watermark */
+.bg-image p {
+  background-color: rgb(196, 196, 196, 0.45);
+  color: white;
+  font-weight: 200;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  filter: alpha(opacity=50);
+  margin-bottom: 0;
+}
+
 @media (max-width: 990px) {
   #app-cover {
     margin-top: auto;
@@ -71,6 +83,10 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  .bg-image p {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -79,6 +95,4 @@
     height: 20rem;
     clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%, 50% 85%);
   }
-
 }
-

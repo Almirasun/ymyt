@@ -27,7 +27,7 @@ export const Gallery = () => {
       <h3 className="title text-sm-left text-center">{strings[lang]["gallery-title"]}</h3>
 
       <Carousel breakPoints={breakPoints}>
-        <Item className="photo">
+        {/* <Item className="photo">
           <img src={images.img1} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item className="photo">
@@ -59,7 +59,7 @@ export const Gallery = () => {
         </Item>
         <Item className="photo">
           <img src={images.img11} alt="image-gallery" width="260px" height="180px" />
-        </Item>
+        </Item> */}
         <Item className="photo">
           <img src={images.img12} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
         </Item>

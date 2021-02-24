@@ -15,6 +15,7 @@ import img14 from "./14.JPG";
 import img15 from "./15.JPG";
 import img16 from "./16.JPG";
 import img17 from "./17.JPG";
+import img18 from "./18.JPG";
 
 const images = {
   img1,
@@ -34,6 +35,7 @@ const images = {
   img15,
   img16,
   img17,
+  img18,
 };
 
 export default images;

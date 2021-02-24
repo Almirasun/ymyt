@@ -61,22 +61,25 @@ export const Gallery = () => {
           <img src={images.img11} alt="image-gallery" width="260px" height="180px" />
         </Item> */}
         <Item className="photo">
-          <img src={images.img12} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img12} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item className="photo">
-          <img src={images.img13} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img13} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item className="photo">
-          <img src={images.img14} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img14} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item className="photo">
-          <img src={images.img15} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img15} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item className="photo">
-          <img src={images.img16} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img16} alt="image-gallery" width="260px" height="180px" />
         </Item>
         <Item className="photo">
-          <img src={images.img17} title="Photo by Vlad Ushakov" alt="image-gallery" width="260px" height="180px" />
+          <img src={images.img17} alt="image-gallery" width="260px" height="180px" />
+        </Item>
+        <Item className="photo">
+          <img src={images.img18} alt="image-gallery" width="260px" height="180px" />
         </Item>
       </Carousel>
     </div>

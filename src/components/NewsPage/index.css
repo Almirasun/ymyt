@@ -54,7 +54,7 @@
   #newsPage .bg-title {
     order: 2;
     height: 40rem;
-    margin-top: -120px;
+    /* margin-top: -120px; */
   }
 
   #newsPage .social-icons__main {
@@ -81,3 +81,23 @@
     height: 30rem;
   }
 }
+
+
+@media (max-width: 600px) {
+  #newsPage .bg-image {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #newsPage .bg-image {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #newsPage .bg-image {
+    height: 13rem;
+  }
+}
+

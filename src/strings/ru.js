@@ -58,7 +58,7 @@ const ru = {
   "what-we-do-eco": "Экология",
   "what-we-do-eco-info": "Сохранение и поддержание экосистем",
   "what-we-do-science": "Наука",
-  "what-we-do-science-info": "Развитие научно-иследовательских практик",
+  "what-we-do-science-info": "Развитие научно-исследовательских практик",
   "what-we-do-economy": "Экономическое благосостояние",
   "what-we-do-economy-info": "Расширение экономических возможностей",
   "what-we-do-rights": "Правовая защита",

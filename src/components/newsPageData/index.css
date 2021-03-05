@@ -1,3 +1,7 @@
+#newsData {
+    margin-bottom: 50px;
+}
+
 #newsData img {
     margin-bottom: 100px;
 }   
@@ -11,6 +15,7 @@
 #newsData p {
     font-weight: 300;
 }
+
 
 
 @media (max-width: 1200px) {

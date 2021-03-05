@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import axios from "axios";
 import PropTypes from "prop-types";
 import moment from "moment";
-import 'moment/locale/ru'  
+import "moment/locale/ru";
 import "./index.css";
 
 export class WordpressNews extends Component {
@@ -41,8 +41,10 @@ export class WordpressNews extends Component {
             <img src={imgUrl} alt={title.rendered} />
           </div>
           <div className="col-lg-8">
-            <h3>{title.rendered}</h3>
-            <p dangerouslySetInnerHTML={{__html: content.rendered}}></p>
+            <h4>{title.rendered}</h4>
+            <div>
+              <p dangerouslySetInnerHTML={{__html: content.rendered}}></p>
+            </div>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ export class WordpressNews extends Component {
     Promise.all([getImageUrl]).then((res) => {
       console.log(res);
       this.setState({
-        imgUrl: res[0].data.media_details.sizes.thumbnail.source_url,
+        imgUrl: res[0].data.media_details.sizes["shapely-grid"].source_url,
         isLoaded: true,
       });
     });
@@ -34,7 +34,7 @@ export class WordpressNews extends Component {
           <div className="card">
             <img className="card-img-top" src={imgUrl} alt={title.rendered} />
             <div className="card-body">
-              <h5 className="card-title">{title.rendered}</h5>
+              <h6 className="card-title">{title.rendered}</h6>
               <p clasname="card-text" dangerouslySetInnerHTML={{__html: excerpt.rendered}}></p>
             </div>
           </div>

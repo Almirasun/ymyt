@@ -16,7 +16,9 @@
   line-height: normal;
 }
 
-
+#newsCard > .card {
+  height: 500px; /* фиксированная высота карточек для новостей */
+}
 
 .card-body {
   background-color: #14ad02;

@@ -16,6 +16,10 @@
     font-weight: 300;
 }
 
+.shareIcon {
+    color: #14ad02;
+}
+
 
 
 @media (max-width: 1200px) {
@@ -28,7 +32,7 @@
         margin-bottom: 25px;
     }
 
-    #newsData .publicationDate {
+    #newsData .twitter-share-button {
         margin-top: 75px;
     }
 

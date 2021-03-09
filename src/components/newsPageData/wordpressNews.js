@@ -4,6 +4,12 @@ import PropTypes from "prop-types";
 import moment from "moment";
 import "moment/locale/ru";
 import "./index.css";
+import {
+  FacebookShareButton,
+  TelegramShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+} from "react-share";
 
 export class WordpressNews extends Component {
   state = {
@@ -37,6 +43,30 @@ export class WordpressNews extends Component {
       <div id="newsData" className="container">
         <div className="row">
           <div className="col-lg-4 news-img">
+            <TwitterShareButton url={"https://umutbulagy.org/newsPage"} title={title.rendered}>
+              <button className="btn btn-circle">
+                <i className="shareIcon fab fa-twitter fa-2x"> </i>
+              </button>
+            </TwitterShareButton>
+            <FacebookShareButton
+              url={"https://umutbulagy.org/newsPage"}
+              quote={title.rendered}
+              hashtag="umutbulagy"
+            >
+              <button className="btn btn-circle">
+                <i className="shareIcon fab fa-facebook fa-2x"> </i>
+              </button>
+            </FacebookShareButton>
+            <WhatsappShareButton title={title.rendered} url={"https://umutbulagy.org/newsPage"}>
+              <button className="btn btn-circle">
+                <i className="shareIcon fab fa-whatsapp fa-2x"> </i>
+              </button>
+            </WhatsappShareButton>
+            <TelegramShareButton title={title.rendered} url={"https://umutbulagy.org/newsPage"}>
+              <button className="btn btn-circle">
+                <i className="shareIcon fab fa-telegram fa-2x"> </i>
+              </button>
+            </TelegramShareButton>
             <p className="publicationDate">{moment(date).format("LLLL")}</p>
             <img src={imgUrl} alt={title.rendered} />
           </div>

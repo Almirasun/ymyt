@@ -8,7 +8,7 @@ export const WhoWeAre = () => {
   const lang = ReactRedux.useSelector((state) => state.lang);
 
   return (
-    <div id="whoWeAre" className="container" style={{marginTop: 100}}>
+    <div id="whoWeAre" className="container">
       <div className="row">
         <h3 className="col-lg-3">{strings[lang]["who-we-are-title"]}</h3>
         <div className="col-lg-9 infos">

@@ -11,7 +11,7 @@ export const Cover = () => {
     <div id="app-cover">
       <div className="container-fluid">
         <div className="row">
-          <div className="col d-flex flex-column justify-content-center align-items-start bg-title">
+          <div className="col d-flex flex-column justify-content-center bg-title">
             <div className="container">
               <div className="h1">{strings[lang]["cover-title"]}</div>
               <div className="moto">{strings[lang]["cover-moto"]}</div>
@@ -21,7 +21,7 @@ export const Cover = () => {
                 </button>
               </a>
               <div className="d-flex align-items-center social-icons__main">
-                <div style={{marginRight: 15, marginTop: 25}}>
+                <div style={{marginRight: 15, marginTop: 25, paddingTop: 5}}>
                   {strings[lang]["cover-follow-us"]}
                 </div>
                 <div style={{marginTop: 25}}>

@@ -1,6 +1,6 @@
 const en = {
   // Navbar
-  "navbar-link-main": "Main",
+  "navbar-link-main": "Home",
   "navbar-link-about-us": "About us",
   "navbar-link-projects": "Projects",
   "navbar-link-news": "News",

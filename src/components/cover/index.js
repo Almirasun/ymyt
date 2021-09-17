@@ -21,7 +21,7 @@ export const Cover = () => {
                 </button>
               </a>
               <div className="d-flex align-items-center social-icons__main">
-                <div style={{marginRight: 15, marginTop: 25, paddingTop: 5}}>
+                <div style={{marginRight: 15, paddingTop: 5}}>
                   {strings[lang]["cover-follow-us"]}
                 </div>
                 <div style={{marginTop: 25}}>
@@ -30,7 +30,7 @@ export const Cover = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 bg-image" >
+          <div className="col-lg-8 bg-image" >
             <p>{strings[lang]["watermark"]}</p>
           </div>            
         </div>
